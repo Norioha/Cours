@@ -1,0 +1,6 @@
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_object.h:35:20:gpio_write	16	static
+../platform/mbed_board.c:25:25:mbed_die	40	static
+../platform/mbed_board.c:50:6:mbed_error_printf	16	static
+../platform/mbed_board.c:58:6:mbed_error_vprintf	152	static
+../platform/mbed_board.c:74:6:mbed_error_puts	16	static
+../platform/mbed_board.c:93:6:mbed_error_vfprintf	16	static

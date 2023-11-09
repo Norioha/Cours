@@ -1,0 +1,8 @@
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_object.h:35:20:gpio_write	16	static
+../hal/mbed_gpio.c:19:20:_gpio_init_in	24	static
+../hal/mbed_gpio.c:28:20:_gpio_init_out	24	static
+../hal/mbed_gpio.c:38:6:gpio_init_in	16	static
+../hal/mbed_gpio.c:43:6:gpio_init_in_ex	24	static
+../hal/mbed_gpio.c:48:6:gpio_init_out	16	static
+../hal/mbed_gpio.c:53:6:gpio_init_out_ex	24	static
+../hal/mbed_gpio.c:58:6:gpio_init_inout	24	static

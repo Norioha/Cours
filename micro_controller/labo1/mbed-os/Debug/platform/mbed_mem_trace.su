@@ -1,0 +1,19 @@
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/arm-none-eabi/include/c++/12.2.1/new:174:33:void* operator new(std::size_t, void*)	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:45:20:void singleton_lock()	0	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:62:20:void singleton_unlock()	0	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:53:5:PlatformMutex::PlatformMutex()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:71:10:void PlatformMutex::lock()	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:81:10:void PlatformMutex::unlock()	8	static
+../platform/mbed_mem_trace.cpp:46:6:void mbed_mem_trace_set_callback(mbed_mem_trace_cb_t)	8	static
+../platform/mbed_mem_trace.cpp:51:6:void mbed_mem_trace_disable()	8	static
+../platform/mbed_mem_trace.cpp:60:6:void mbed_mem_trace_enable()	8	static
+../platform/mbed_mem_trace.cpp:69:6:void mbed_mem_trace_lock()	8	static
+../platform/mbed_mem_trace.cpp:75:6:void mbed_mem_trace_unlock()	8	static
+../platform/mbed_mem_trace.cpp:81:7:void* mbed_mem_trace_malloc(void*, size_t, void*)	24	static
+../platform/mbed_mem_trace.cpp:91:7:void* mbed_mem_trace_realloc(void*, void*, size_t, void*)	32	static
+../platform/mbed_mem_trace.cpp:101:7:void* mbed_mem_trace_calloc(void*, size_t, size_t, void*)	32	static
+../platform/mbed_mem_trace.cpp:111:6:void mbed_mem_trace_free(void*, void*)	16	static
+../platform/mbed_mem_trace.cpp:120:6:)	40	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:113:8:T* SingletonPtr<T>::operator->() const [with T = PlatformMutex]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:93:8:T* SingletonPtr<T>::get() const [with T = PlatformMutex]	16	static

@@ -1,0 +1,116 @@
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/arm-none-eabi/include/c++/12.2.1/new:174:33:void* operator new(std::size_t, void*)	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:45:20:void singleton_lock()	0	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:62:20:void singleton_unlock()	0	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:53:5:PlatformMutex::PlatformMutex()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:71:10:void PlatformMutex::lock()	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:81:10:void PlatformMutex::unlock()	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:48:13:mbed::FileHandle::~FileHandle()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:48:13:virtual mbed::FileHandle::~FileHandle()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:99:17:virtual int mbed::FileHandle::sync()	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:121:19:virtual off_t mbed::FileHandle::tell()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:130:18:virtual void mbed::FileHandle::rewind()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:154:19:virtual off_t mbed::FileHandle::lseek(off_t, int)	24	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:168:17:virtual int mbed::FileHandle::fsync()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:180:19:virtual off_t mbed::FileHandle::flen()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:194:17:virtual int mbed::FileHandle::set_blocking(bool)	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:203:18:virtual bool mbed::FileHandle::is_blocking() const	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:218:19:virtual short int mbed::FileHandle::poll(short int) const	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:263:18:virtual void mbed::FileHandle::sigio(mbed::Callback<void()>)	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/FileHandle.h:46:7:mbed::FileHandle::FileHandle()	16	static
+../platform/mbed_retarget.cpp:115:6:void mbed::remove_filehandle(FileHandle*)	24	static
+../platform/mbed_retarget.cpp:142:19:virtual off_t DirectSerial::seek(off_t, int)	16	static
+../platform/mbed_retarget.cpp:146:19:virtual off_t DirectSerial::size()	8	static
+../platform/mbed_retarget.cpp:150:17:virtual int DirectSerial::isatty()	8	static
+../platform/mbed_retarget.cpp:154:17:virtual int DirectSerial::close()	8	static
+../platform/mbed_retarget.cpp:161:1:DirectSerial::DirectSerial(PinName, PinName, int)	24	static
+../platform/mbed_retarget.cpp:177:9:virtual ssize_t DirectSerial::write(const void*, size_t)	32	static
+../platform/mbed_retarget.cpp:186:9:virtual ssize_t DirectSerial::read(void*, size_t)	32	static
+../platform/mbed_retarget.cpp:196:7:virtual short int DirectSerial::poll(short int) const	24	static
+../platform/mbed_retarget.cpp:213:19:virtual off_t Sink::seek(off_t, int)	16	static
+../platform/mbed_retarget.cpp:217:19:virtual off_t Sink::size()	8	static
+../platform/mbed_retarget.cpp:221:17:virtual int Sink::isatty()	8	static
+../platform/mbed_retarget.cpp:225:17:virtual int Sink::close()	8	static
+../platform/mbed_retarget.cpp:231:9:virtual ssize_t Sink::write(const void*, size_t)	16	static
+../platform/mbed_retarget.cpp:237:9:virtual ssize_t Sink::read(void*, size_t)	24	static
+../platform/mbed_retarget.cpp:247:23:mbed::FileHandle* mbed::mbed_target_override_console(int)	8	static
+../platform/mbed_retarget.cpp:252:23:mbed::FileHandle* mbed::mbed_override_console(int)	8	static
+../platform/mbed_retarget.cpp:257:20:mbed::FileHandle* default_console()	8	static
+../platform/mbed_retarget.cpp:279:20:mbed::FileHandle* get_console(int)	24	static
+../platform/mbed_retarget.cpp:293:20:mbed::FileHandle* get_fhc(int)	24	static
+../platform/mbed_retarget.cpp:312:12:int handle_open_errors(int, unsigned int)	16	static
+../platform/mbed_retarget.cpp:320:19:int openflags_to_posix(int)	16	static
+../platform/mbed_retarget.cpp:368:12:int reserve_filehandle()	16	static
+../platform/mbed_retarget.cpp:391:5:int mbed::bind_to_fd(FileHandle*)	24	static
+../platform/mbed_retarget.cpp:405:12:int unbind_from_fd(int, mbed::FileHandle*)	16	static
+../platform/mbed_retarget.cpp:418:23:FILE* fdopen(int, const char*)	32	static
+../platform/mbed_retarget.cpp:438:12:FILE* mbed::fdopen(FileHandle*, const char*)	24	static
+../platform/mbed_retarget.cpp:466:23:FILEHANDLE _open(const char*, int)	24	static
+../platform/mbed_retarget.cpp:514:16:)	44	static
+../platform/mbed_retarget.cpp:551:16:int _close(FILEHANDLE)	16	static
+../platform/mbed_retarget.cpp:556:16:int close(int)	24	static
+../platform/mbed_retarget.cpp:574:13:bool convert_crlf(int)	8	static
+../platform/mbed_retarget.cpp:589:16:int _write(FILEHANDLE, const unsigned char*, unsigned int, int)	48	static
+../platform/mbed_retarget.cpp:667:20:ssize_t write(int, const void*, size_t)	32	static
+../platform/mbed_retarget.cpp:702:16:int _read(FILEHANDLE, unsigned char*, unsigned int, int)	40	static
+../platform/mbed_retarget.cpp:762:20:ssize_t read(int, void*, size_t)	32	static
+../platform/mbed_retarget.cpp:784:16:int _isatty(FILEHANDLE)	16	static
+../platform/mbed_retarget.cpp:790:16:int isatty(int)	24	static
+../platform/mbed_retarget.cpp:813:5:int _lseek(FILEHANDLE, int, int)	32	static
+../platform/mbed_retarget.cpp:829:18:off_t lseek(int, off_t, int)	32	static
+../platform/mbed_retarget.cpp:852:16:int fsync(int)	24	static
+../platform/mbed_retarget.cpp:914:16:int _fstat(int, stat*)	16	static
+../platform/mbed_retarget.cpp:920:16:int fstat(int, stat*)	24	static
+../platform/mbed_retarget.cpp:933:16:)	36	static
+../platform/mbed_retarget.cpp:969:16:int poll(pollfd*, nfds_t, int)	552	static
+../platform/mbed_retarget.cpp:991:16:int remove(const char*)	40	static
+../platform/mbed_retarget.cpp:1009:16:int rename(const char*, const char*)	56	static
+../platform/mbed_retarget.cpp:1036:18:char* tmpnam(char*)	16	static
+../platform/mbed_retarget.cpp:1042:18:FILE* tmpfile()	8	static
+../platform/mbed_retarget.cpp:1056:17:DIR* opendir(const char*)	48	static
+../platform/mbed_retarget.cpp:1075:27:dirent* readdir(DIR*)	24	static
+../platform/mbed_retarget.cpp:1089:16:int closedir(DIR*)	24	static
+../platform/mbed_retarget.cpp:1100:17:void rewinddir(DIR*)	16	static
+../platform/mbed_retarget.cpp:1105:18:off_t telldir(DIR*)	16	static
+../platform/mbed_retarget.cpp:1110:17:void seekdir(DIR*, off_t)	16	static
+../platform/mbed_retarget.cpp:1115:16:int mkdir(const char*, mode_t)	40	static
+../platform/mbed_retarget.cpp:1133:16:int stat(const char*, stat*)	40	static
+../platform/mbed_retarget.cpp:1151:16:int statvfs(const char*, statvfs*)	40	static
+../platform/mbed_retarget.cpp:1173:6:void __gnu_cxx::__verbose_terminate_handler()	16	static
+../platform/mbed_retarget.cpp:1179:22:void __cxa_pure_virtual()	8	static
+../platform/mbed_retarget.cpp:1214:25:char* _sbrk(int)	24	static
+../platform/mbed_retarget.cpp:1242:17:void _exit(int)	16	static
+../platform/mbed_retarget.cpp:1283:9:int __aeabi_atexit(void*, void (*)(void*), void*)	16	static
+../platform/mbed_retarget.cpp:1288:9:int __cxa_atexit(void (*)(void*), void*, void*)	16	static
+../platform/mbed_retarget.cpp:1293:10:void __cxa_finalize(void*)	8	static
+../platform/mbed_retarget.cpp:1318:10:void __wrap_exit(int)	16	static
+../platform/mbed_retarget.cpp:1328:9:int __wrap_atexit(void (*)())	8	static
+../platform/mbed_retarget.cpp:1341:6:void mbed::mbed_set_unbuffered_stream(FILE*)	16	static
+../platform/mbed_retarget.cpp:1376:22:void __rtos_malloc_lock(_reent*)	8	static
+../platform/mbed_retarget.cpp:1377:22:void __rtos_malloc_unlock(_reent*)	8	static
+../platform/mbed_retarget.cpp:1378:22:void __rtos_env_lock(_reent*)	8	static
+../platform/mbed_retarget.cpp:1379:22:void __rtos_env_unlock(_reent*)	8	static
+../platform/mbed_retarget.cpp:1381:17:void __malloc_lock(_reent*)	16	static
+../platform/mbed_retarget.cpp:1386:17:void __malloc_unlock(_reent*)	16	static
+../platform/mbed_retarget.cpp:1391:17:void __env_lock(_reent*)	16	static
+../platform/mbed_retarget.cpp:1396:17:void __env_unlock(_reent*)	16	static
+../platform/mbed_retarget.cpp:1409:16:int __cxa_guard_acquire(int*)	24	static
+../platform/mbed_retarget.cpp:1425:17:void __cxa_guard_release(int*)	24	static
+../platform/mbed_retarget.cpp:1433:17:void __cxa_guard_abort(int*)	24	static
+../platform/mbed_retarget.cpp:1536:7:void* operator new(std::size_t)	32	static
+../platform/mbed_retarget.cpp:1545:7:void* operator new [](std::size_t)	32	static
+../platform/mbed_retarget.cpp:1554:7:void* operator new(std::size_t, const std::nothrow_t&)	16	static
+../platform/mbed_retarget.cpp:1559:7:void* operator new [](std::size_t, const std::nothrow_t&)	16	static
+../platform/mbed_retarget.cpp:1564:6:void operator delete(void*)	16	static
+../platform/mbed_retarget.cpp:1568:6:void operator delete [](void*)	16	static
+../platform/mbed_retarget.cpp:1585:20:clock_t clock()	16	static
+../platform/mbed_retarget.cpp:1595:32:const ticker_info_t* us_ticker_get_info()	0	static
+../platform/mbed_retarget.cpp:1605:32:const ticker_info_t* lp_ticker_get_info()	0	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:178:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::FileHandle]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::FileHandle]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:113:8:T* SingletonPtr<T>::operator->() const [with T = PlatformMutex]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:93:8:T* SingletonPtr<T>::get() const [with T = PlatformMutex]	16	static
+../platform/mbed_retarget.cpp:209:7:Sink::~Sink()	16	static
+../platform/mbed_retarget.cpp:209:7:virtual Sink::~Sink()	16	static
+../platform/mbed_retarget.cpp:137:7:DirectSerial::~DirectSerial()	16	static
+../platform/mbed_retarget.cpp:137:7:virtual DirectSerial::~DirectSerial()	16	static

@@ -1,0 +1,7 @@
+../drivers/SPISlave.cpp:23:1:mbed::SPISlave::SPISlave(PinName, PinName, PinName, PinName)	32	static
+../drivers/SPISlave.cpp:34:6:void mbed::SPISlave::format(int, int)	24	static
+../drivers/SPISlave.cpp:41:6:void mbed::SPISlave::frequency(int)	16	static
+../drivers/SPISlave.cpp:47:5:int mbed::SPISlave::receive()	16	static
+../drivers/SPISlave.cpp:52:5:int mbed::SPISlave::read()	16	static
+../drivers/SPISlave.cpp:57:6:void mbed::SPISlave::reply(int)	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::SPISlave]	8	static

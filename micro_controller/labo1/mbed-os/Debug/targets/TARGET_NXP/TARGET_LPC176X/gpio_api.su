@@ -1,0 +1,4 @@
+../targets/TARGET_NXP/TARGET_LPC176X/gpio_api.c:20:10:gpio_set	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/gpio_api.c:26:6:gpio_init	24	static
+../targets/TARGET_NXP/TARGET_LPC176X/gpio_api.c:39:6:gpio_mode	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/gpio_api.c:43:6:gpio_dir	16	static

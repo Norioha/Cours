@@ -1,0 +1,4 @@
+../platform/mbed_mpu_mgmt.c:28:6:mbed_mpu_manager_lock_ram_execution	8	static
+../platform/mbed_mpu_mgmt.c:39:6:mbed_mpu_manager_unlock_ram_execution	8	static
+../platform/mbed_mpu_mgmt.c:50:6:mbed_mpu_manager_lock_rom_write	8	static
+../platform/mbed_mpu_mgmt.c:61:6:mbed_mpu_manager_unlock_rom_write	8	static

@@ -1,0 +1,6 @@
+../hal/mbed_pinmap_common.c:20:6:pinmap_pinout	24	static
+../hal/mbed_pinmap_common.c:38:10:pinmap_merge	24	static
+../hal/mbed_pinmap_common.c:58:10:pinmap_find_peripheral	8	static
+../hal/mbed_pinmap_common.c:69:10:pinmap_peripheral	32	static
+../hal/mbed_pinmap_common.c:83:10:pinmap_find_function	8	static
+../hal/mbed_pinmap_common.c:94:10:pinmap_function	32	static

@@ -1,0 +1,11 @@
+../platform/CThunkBase.cpp:94:13:static void (* CThunkBase::cthunk_alloc(CThunkBase*))()	32	static
+../platform/CThunkBase.cpp:120:6:static void CThunkBase::cthunk_free(CThunkEntry)	16	static
+../platform/CThunkBase.cpp:127:6:static void CThunkBase::cthunk_free_real(CThunkEntry)	32	static
+../platform/CThunkBase.h:71:17:static void CThunkBase::thunk_entry() [with int N = 0]	8	static
+../platform/CThunkBase.h:71:17:static void CThunkBase::thunk_entry() [with int N = 1]	8	static
+../platform/CThunkBase.h:71:17:static void CThunkBase::thunk_entry() [with int N = 2]	8	static
+../platform/CThunkBase.h:71:17:static void CThunkBase::thunk_entry() [with int N = 3]	8	static
+../platform/CThunkBase.h:71:17:static void CThunkBase::thunk_entry() [with int N = 4]	8	static
+../platform/CThunkBase.h:71:17:static void CThunkBase::thunk_entry() [with int N = 5]	8	static
+../platform/CThunkBase.h:71:17:static void CThunkBase::thunk_entry() [with int N = 6]	8	static
+../platform/CThunkBase.h:71:17:static void CThunkBase::thunk_entry() [with int N = 7]	8	static

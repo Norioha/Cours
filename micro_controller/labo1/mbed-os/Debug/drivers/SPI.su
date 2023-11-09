@@ -1,0 +1,23 @@
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:53:5:PlatformMutex::PlatformMutex()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:71:10:void PlatformMutex::lock()	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:81:10:void PlatformMutex::unlock()	8	static
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/arm-none-eabi/include/c++/12.2.1/new:174:33:void* operator new(std::size_t, void*)	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:45:20:void singleton_lock()	0	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:62:20:void singleton_unlock()	0	static
+../drivers/SPI.cpp:32:1:mbed::SPI::SPI(PinName, PinName, PinName, PinName)	32	static
+../drivers/SPI.cpp:48:1:mbed::SPI::~SPI()	16	static
+../drivers/SPI.cpp:48:1:virtual mbed::SPI::~SPI()	16	static
+../drivers/SPI.cpp:55:6:void mbed::SPI::format(int, int)	24	static
+../drivers/SPI.cpp:71:6:void mbed::SPI::frequency(int)	16	static
+../drivers/SPI.cpp:90:6:void mbed::SPI::aquire()	16	static
+../drivers/SPI.cpp:102:6:void mbed::SPI::_acquire()	16	static
+../drivers/SPI.cpp:111:5:virtual int mbed::SPI::write(int)	24	static
+../drivers/SPI.cpp:120:5:virtual int mbed::SPI::write(const char*, int, char*, int)	40	static
+../drivers/SPI.cpp:129:6:virtual void mbed::SPI::lock()	16	static
+../drivers/SPI.cpp:134:6:virtual void mbed::SPI::unlock()	16	static
+../drivers/SPI.cpp:139:6:void mbed::SPI::set_default_write_value(char)	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::SPI]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:178:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::SPI]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:113:8:T* SingletonPtr<T>::operator->() const [with T = PlatformMutex]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:93:8:T* SingletonPtr<T>::get() const [with T = PlatformMutex]	16	static

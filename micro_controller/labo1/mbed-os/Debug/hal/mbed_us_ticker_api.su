@@ -1,0 +1,3 @@
+../hal/mbed_us_ticker_api.c:39:22:get_us_ticker_data	0	static
+../hal/mbed_us_ticker_api.c:44:25:set_us_ticker_irq_handler	16	static
+../hal/mbed_us_ticker_api.c:53:6:us_ticker_irq_handler	8	static

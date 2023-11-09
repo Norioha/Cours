@@ -1,0 +1,159 @@
+15:12:27 **** Incremental Build of configuration Debug for project labo1 ****
+make -r -j20 all 
+Building target: labo1.axf
+Invoking: MCU C++ Linker
+arm-none-eabi-c++ -L"/home/pc/Desktop/Cours/micro_controller/mbed-os/Debug" -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -Wl,-n -Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -lmbed-os -Wl,--end-group -Xlinker -Map="labo1.map" -Xlinker -print-memory-usage -Xlinker --gc-sections -Xlinker --wrap=main -Xlinker --wrap=_malloc_r -Xlinker --wrap=_free_r -Xlinker --wrap=_realloc_r -Xlinker --wrap=_memalign_r -Xlinker --wrap=_calloc_r -Xlinker --wrap=exit -Xlinker --wrap=atexit -mcpu=cortex-m3 -mthumb -T ../../mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/TOOLCHAIN_GCC_ARM/LPC1768.ld -o "labo1.axf" ./src/labo1.o    -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -lmbed-os
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-signalr.o): in function `_getpid_r':
+signalr.c:(.text._getpid_r+0x0): warning: _getpid is not implemented and will always fail
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-signalr.o): in function `_kill_r':
+signalr.c:(.text._kill_r+0xe): warning: _kill is not implemented and will always fail
+Memory region         Used Size  Region Size  %age Used
+           FLASH:       54056 B       512 KB     10.31%
+             RAM:        3012 B      32512 B      9.26%
+            RAM2:          0 GB        32 KB      0.00%
+Finished building target: labo1.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "labo1.axf"; # arm-none-eabi-objcopy -v -O binary "labo1.axf" "labo1.bin" ; # checksum -p LPC1769 -d "labo1.bin";
+   text	   data	    bss	    dec	    hex	filename
+  54056	   1996	   1012	  57064	   dee8	labo1.axf
+ 
+15:14:59 **** Incremental Build of configuration Debug for project labo1 ****
+make -r -j20 all 
+Building target: labo1.axf
+Invoking: MCU C++ Linker
+arm-none-eabi-c++ -L"/home/pc/Desktop/Cours/micro_controller/mbed-os/Debug" -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -Wl,-n -Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -lmbed-os -Wl,--end-group -Xlinker -Map="labo1.map" -Xlinker -print-memory-usage -Xlinker --gc-sections -Xlinker --wrap=main -Xlinker --wrap=_malloc_r -Xlinker --wrap=_free_r -Xlinker --wrap=_realloc_r -Xlinker --wrap=_memalign_r -Xlinker --wrap=_calloc_r -Xlinker --wrap=exit -Xlinker --wrap=atexit -mcpu=cortex-m3 -mthumb -T ../../mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/TOOLCHAIN_GCC_ARM/LPC1768.ld -o "labo1.axf" ./src/labo1.o    -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -lmbed-os
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-signalr.o): in function `_getpid_r':
+signalr.c:(.text._getpid_r+0x0): warning: _getpid is not implemented and will always fail
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-signalr.o): in function `_kill_r':
+signalr.c:(.text._kill_r+0xe): warning: _kill is not implemented and will always fail
+Memory region         Used Size  Region Size  %age Used
+           FLASH:       54056 B       512 KB     10.31%
+             RAM:        3012 B      32512 B      9.26%
+            RAM2:          0 GB        32 KB      0.00%
+Finished building target: labo1.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "labo1.axf"; # arm-none-eabi-objcopy -v -O binary "labo1.axf" "labo1.bin" ; # checksum -p LPC1769 -d "labo1.bin";
+   text	   data	    bss	    dec	    hex	filename
+  54056	   1996	   1012	  57064	   dee8	labo1.axf
+ 
+15:15:00 **** Build of configuration Debug for project labo2 ****
+make -r -j20 all 
+Building file: ../src/labo2.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -std=gnu++98 -DDEVICE_FLASH=1 -DARM_MATH_CM3 -DDEVICE_DIGITALIN=1 -DDEVICE_SLEEP=1 -DTARGET_CORTEX -DTARGET_NXP -DCOMPONENT_NSPE=1 -DDEVICE_I2CSLAVE=1 -DDEVICE_PWMOUT=1 -DDEVICE_I2C=1 -DTARGET_CORTEX_M -DTOOLCHAIN_GCC -DTARGET_LIKE_MBED -D__CMSIS_RTOS -DDEVICE_MPU=1 -DDEVICE_DEBUG_AWARENESS=1 -DTOOLCHAIN_GCC_ARM -D__CORTEX_M3 -DTARGET_LPC1768 -DDEVICE_ANALOGIN=1 -DTARGET_M3 -DCOMPONENT_PSA_SRV_EMUL=1 -DDEVICE_SPISLAVE=1 -DDEVICE_INTERRUPTIN=1 -D__MBED_CMSIS_RTOS_CM -DCOMPONENT_PSA_SRV_IMPL=1 -DTARGET_LPC176X -DTARGET_LPCTarget -D__MBED__=1 -DDEVICE_ETHERNET=1 -DDEVICE_CAN=1 -DDEVICE_EMAC=1 -DDEVICE_DIGITALOUT=1 -DMBED_BUILD_TIMESTAMP=1570193752.760802 -DDEVICE_SEMIHOST=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_SPI=1 -DDEVICE_SERIAL=1 -DDEVICE_LOCALFILESYSTEM=1 -DTARGET_NXP_EMAC -DTARGET_MBED_LPC1768 -DTARGET_DEBUG -DDEVICE_PORTOUT=1 -DDEVICE_RTC=1 -DTARGET_LIKE_CORTEX_M3 -DDEVICE_ANALOGOUT=1 -DTARGET_hepialight2 -DDEVICE_SERIAL_FC=1 -DDEVICE_PORTIN=1 -DDEVICE_PORTINOUT=1 -DDEVICE_USTICKER=1 -D__NEWLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -DCPP_USE_HEAP -D__LPC17XX__ -I"/home/pc/Desktop/Cours/micro_controller/labo2/." -I"/home/pc/Desktop/Cours/micro_controller/labo2/inc" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/cmsis" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/cmsis/TARGET_CORTEX_M" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/drivers" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/hal" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/hal/storage_abstraction" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/platform" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/targets/TARGET_NXP" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/targets/TARGET_NXP/TARGET_LPC176X" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768" -I"/home/pc/Desktop/Cours/micro_controller/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device" -include"/home/pc/Desktop/Cours/micro_controller/mbed-os/mbed_config.h" -O0 -fno-rtti -fmessage-length=0 -fno-exceptions -fno-builtin -ffunction-sections -fdata-sections -funsigned-char -fno-delete-null-pointer-checks -fomit-frame-pointer -g3 -Wall -Wextra -c -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -Wno-unused-parameter -Wno-missing-field-initializers -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m3 -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"src/labo2.d" -MT"src/labo2.o" -MT"src/labo2.d" -o "src/labo2.o" "../src/labo2.cpp"
+Finished building: ../src/labo2.cpp
+ 
+Building target: labo2.axf
+Invoking: MCU C++ Linker
+arm-none-eabi-c++ -L"/home/pc/Desktop/Cours/micro_controller/mbed-os/Debug" -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -Wl,-n -Wl,--start-group -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -lmbed-os -Wl,--end-group -Xlinker -Map="labo2.map" -Xlinker -print-memory-usage -Xlinker --gc-sections -Xlinker --wrap=main -Xlinker --wrap=_malloc_r -Xlinker --wrap=_free_r -Xlinker --wrap=_realloc_r -Xlinker --wrap=_memalign_r -Xlinker --wrap=_calloc_r -Xlinker --wrap=exit -Xlinker --wrap=atexit -mcpu=cortex-m3 -mthumb -T ../../mbed-os/targets/TARGET_NXP/TARGET_LPC176X/device/TOOLCHAIN_GCC_ARM/LPC1768.ld -o "labo2.axf" ./src/labo2.o    -lstdc++ -lsupc++ -lm -lc -lgcc -lnosys -lmbed-os
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-signalr.o): in function `_getpid_r':
+signalr.c:(.text._getpid_r+0x0): warning: _getpid is not implemented and will always fail
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a(libc_a-signalr.o): in function `_kill_r':
+signalr.c:(.text._kill_r+0xe): warning: _kill is not implemented and will always fail
+Memory region         Used Size  Region Size  %age Used
+           FLASH:       53808 B       512 KB     10.26%
+             RAM:        2980 B      32512 B      9.17%
+            RAM2:          0 GB        32 KB      0.00%
+Finished building target: labo2.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "labo2.axf"; # arm-none-eabi-objcopy -v -O binary "labo2.axf" "labo2.bin" ; # checksum -p LPC1769 -d "labo2.bin";
+   text	   data	    bss	    dec	    hex	filename
+  53808	   1992	    988	  56788	   ddd4	labo2.axf
+ 
+15:15:02 **** Incremental Build of configuration Debug for project mbed-os ****
+make -r -j20 all 
+make[1]: Nothing to be done for 'main-build'.
+Performing post-build steps
+arm-none-eabi-size "libmbed-os.a" ; # arm-none-eabi-objdump -h -S "libmbed-os.a" >"libmbed-os.lss"
+   text	   data	    bss	    dec	    hex	filename
+     68	      0	      0	     68	     44	startup_LPC17xx.o (ex libmbed-os.a)
+      4	      0	      0	      4	      4	CRP.o (ex libmbed-os.a)
+    620	      0	     36	    656	    290	flash_api.o (ex libmbed-os.a)
+    964	      4	      0	    968	    3c8	system_LPC17xx.o (ex libmbed-os.a)
+    662	      0	      0	    662	    296	analogin_api.o (ex libmbed-os.a)
+    446	      0	      0	    446	    1be	analogout_api.o (ex libmbed-os.a)
+   3158	      0	     12	   3170	    c62	can_api.o (ex libmbed-os.a)
+   2944	   5484	     16	   8444	   20fc	ethernet_api.o (ex libmbed-os.a)
+    343	      0	      0	    343	    157	gpio_api.o (ex libmbed-os.a)
+   1217	      0	    196	   1413	    585	gpio_irq_api.o (ex libmbed-os.a)
+   2018	      0	      0	   2018	    7e2	i2c_api.o (ex libmbed-os.a)
+    395	      0	      0	    395	    18b	pinmap.o (ex libmbed-os.a)
+    414	      0	      0	    414	    19e	port_api.o (ex libmbed-os.a)
+   1005	     28	      4	   1037	    40d	pwmout_api.o (ex libmbed-os.a)
+    352	      0	      0	    352	    160	rtc_api.o (ex libmbed-os.a)
+   4309	      0	    240	   4549	   11c5	serial_api.o (ex libmbed-os.a)
+     54	      0	      0	     54	     36	sleep.o (ex libmbed-os.a)
+   1607	      0	      0	   1607	    647	spi_api.o (ex libmbed-os.a)
+    500	      0	      1	    501	    1f5	us_ticker.o (ex libmbed-os.a)
+   2816	      0	      0	   2816	    b00	ATCmdParser.o (ex libmbed-os.a)
+    640	      0	     36	    676	    2a4	CThunkBase.o (ex libmbed-os.a)
+    877	      0	      0	    877	    36d	CallChain.o (ex libmbed-os.a)
+   1070	      0	     24	   1094	    446	FileBase.o (ex libmbed-os.a)
+    410	      0	      0	    410	    19a	FileHandle.o (ex libmbed-os.a)
+    423	      0	      0	    423	    1a7	FilePath.o (ex libmbed-os.a)
+    150	      0	      0	    150	     96	FileSystemHandle.o (ex libmbed-os.a)
+   3038	      0	    257	   3295	    cdf	LocalFileSystem.o (ex libmbed-os.a)
+   1949	      0	      0	   1949	    79d	Stream.o (ex libmbed-os.a)
+    244	      0	      0	    244	     f4	mbed_alloc_wrappers.o (ex libmbed-os.a)
+    312	      0	      0	    312	    138	mbed_application.o (ex libmbed-os.a)
+     36	      0	      0	     36	     24	mbed_assert.o (ex libmbed-os.a)
+    491	      0	      0	    491	    1eb	mbed_board.o (ex libmbed-os.a)
+   1107	      0	      4	   1111	    457	mbed_critical.o (ex libmbed-os.a)
+   1821	      0	    114	   1935	    78f	mbed_error.o (ex libmbed-os.a)
+      0	      0	      0	      0	      0	mbed_error_hist.o (ex libmbed-os.a)
+    388	      0	      0	    388	    184	mbed_interface.o (ex libmbed-os.a)
+    997	      0	     25	   1022	    3fe	mbed_mem_trace.o (ex libmbed-os.a)
+    934	      0	      0	    934	    3a6	mbed_mktime.o (ex libmbed-os.a)
+    396	      0	      4	    400	    190	mbed_mpu_mgmt.o (ex libmbed-os.a)
+    242	      0	      0	    242	     f2	mbed_poll.o (ex libmbed-os.a)
+   6670	    260	    433	   7363	   1cc3	mbed_retarget.o (ex libmbed-os.a)
+    618	     16	     16	    650	    28a	mbed_rtc_time.o (ex libmbed-os.a)
+    118	      0	      0	    118	     76	mbed_sdk_boot.o (ex libmbed-os.a)
+    578	      0	      0	    578	    242	mbed_semihost_api.o (ex libmbed-os.a)
+    545	      0	     18	    563	    233	mbed_sleep_manager.o (ex libmbed-os.a)
+    302	      0	      0	    302	    12e	mbed_stats.o (ex libmbed-os.a)
+    124	      0	      0	    124	     7c	mbed_wait_api_no_rtos.o (ex libmbed-os.a)
+      0	      0	      0	      0	      0	mbed_wait_api_rtos.o (ex libmbed-os.a)
+    435	      0	      0	    435	    1b3	mbed_mpu_v7m.o (ex libmbed-os.a)
+      0	      0	      0	      0	      0	mbed_mpu_v8m.o (ex libmbed-os.a)
+   2508	      0	      0	   2508	    9cc	LowPowerTickerWrapper.o (ex libmbed-os.a)
+    224	      0	      2	    226	     e2	mbed_critical_section_api.o (ex libmbed-os.a)
+     34	      0	      0	     34	     22	mbed_flash_api.o (ex libmbed-os.a)
+    522	      0	      0	    522	    20a	mbed_gpio.o (ex libmbed-os.a)
+      0	      0	      0	      0	      0	mbed_itm_api.o (ex libmbed-os.a)
+      0	      0	      0	      0	      0	mbed_lp_ticker_api.o (ex libmbed-os.a)
+      0	      0	      0	      0	      0	mbed_lp_ticker_wrapper.o (ex libmbed-os.a)
+    532	      0	      0	    532	    214	mbed_pinmap_common.o (ex libmbed-os.a)
+   3056	      0	      0	   3056	    bf0	mbed_ticker_api.o (ex libmbed-os.a)
+    112	      4	     64	    180	     b4	mbed_us_ticker_api.o (ex libmbed-os.a)
+      0	      0	     16	     16	     10	AnalogIn.o (ex libmbed-os.a)
+   1358	      0	      0	   1358	    54e	BusIn.o (ex libmbed-os.a)
+   1856	      0	      0	   1856	    740	BusInOut.o (ex libmbed-os.a)
+   1476	      0	      0	   1476	    5c4	BusOut.o (ex libmbed-os.a)
+   2031	      0	      0	   2031	    7ef	CAN.o (ex libmbed-os.a)
+    402	      0	      0	    402	    192	Ethernet.o (ex libmbed-os.a)
+   1932	      0	     16	   1948	    79c	FlashIAP.o (ex libmbed-os.a)
+   1988	      0	     20	   2008	    7d8	I2C.o (ex libmbed-os.a)
+    316	      0	      0	    316	    13c	I2CSlave.o (ex libmbed-os.a)
+   1575	      0	      0	   1575	    627	InterruptIn.o (ex libmbed-os.a)
+   1270	      0	      4	   1274	    4fa	InterruptManager.o (ex libmbed-os.a)
+   1148	      0	     16	   1164	    48c	MbedCRC.o (ex libmbed-os.a)
+      0	      0	      0	      0	      0	QSPI.o (ex libmbed-os.a)
+    490	      0	      0	    490	    1ea	RawSerial.o (ex libmbed-os.a)
+   1114	      0	     20	   1134	    46e	SPI.o (ex libmbed-os.a)
+    272	      0	      0	    272	    110	SPISlave.o (ex libmbed-os.a)
+    870	      0	      0	    870	    366	Serial.o (ex libmbed-os.a)
+   1779	      0	      0	   1779	    6f3	SerialBase.o (ex libmbed-os.a)
+   2624	      0	      0	   2624	    a40	TableCRC.o (ex libmbed-os.a)
+    961	      0	      0	    961	    3c1	Ticker.o (ex libmbed-os.a)
+    457	      0	      0	    457	    1c9	Timeout.o (ex libmbed-os.a)
+    686	      0	      0	    686	    2ae	Timer.o (ex libmbed-os.a)
+    414	      0	      0	    414	    19e	TimerEvent.o (ex libmbed-os.a)
+   4399	      0	      0	   4399	   112f	UARTSerial.o (ex libmbed-os.a)
+    244	      0	      0	    244	     f4	except.o (ex libmbed-os.a)
+   1020	      0	     84	   1104	    450	mbed_fault_handler.o (ex libmbed-os.a)
+      0	      0	      0	      0	      0	mbed_tz_context.o (ex libmbed-os.a)
+ 

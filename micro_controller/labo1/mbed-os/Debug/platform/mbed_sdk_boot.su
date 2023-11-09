@@ -1,0 +1,6 @@
+../platform/mbed_sdk_boot.c:34:16:mbed_main	0	static
+../platform/mbed_sdk_boot.c:41:16:mbed_sdk_init	0	static
+../platform/mbed_sdk_boot.c:46:16:software_init_hook_rtos	0	static
+../platform/mbed_sdk_boot.c:51:6:mbed_copy_nvic	16	static
+../platform/mbed_sdk_boot.c:91:6:software_init_hook	8	static
+../platform/mbed_sdk_boot.c:99:5:__wrap_main	8	static

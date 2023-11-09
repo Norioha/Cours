@@ -1,0 +1,10 @@
+../platform/mbed_sleep_manager.c:42:30:read_us	0	static
+../platform/mbed_sleep_manager.c:54:16:mbed_time_idle	8	static
+../platform/mbed_sleep_manager.c:59:16:mbed_uptime	8	static
+../platform/mbed_sleep_manager.c:64:16:mbed_time_sleep	0	static
+../platform/mbed_sleep_manager.c:69:16:mbed_time_deepsleep	0	static
+../platform/mbed_sleep_manager.c:160:6:sleep_manager_lock_deep_sleep_internal	16	static
+../platform/mbed_sleep_manager.c:171:6:sleep_manager_unlock_deep_sleep_internal	16	static
+../platform/mbed_sleep_manager.c:182:6:sleep_manager_can_deep_sleep	0	static
+../platform/mbed_sleep_manager.c:187:6:sleep_manager_can_deep_sleep_test_check	24	static
+../platform/mbed_sleep_manager.c:200:6:sleep_manager_sleep_auto	64	static

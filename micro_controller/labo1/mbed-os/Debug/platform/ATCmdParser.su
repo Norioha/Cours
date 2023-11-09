@@ -1,0 +1,30 @@
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/arm-none-eabi/include/c++/12.2.1/new:174:33:void* operator new(std::size_t, void*)	8	static
+../platform/FileHandle.h:241:10:bool mbed::FileHandle::readable() const	16	static
+../platform/mbed_debug.h:63:20:)	20	static
+../platform/ATCmdParser.cpp:46:5:int mbed::ATCmdParser::putc(char)	32	static
+../platform/ATCmdParser.cpp:60:5:int mbed::ATCmdParser::getc()	32	static
+../platform/ATCmdParser.cpp:75:6:void mbed::ATCmdParser::flush()	24	static
+../platform/ATCmdParser.cpp:85:5:int mbed::ATCmdParser::write(const char*, int)	32	static
+../platform/ATCmdParser.cpp:96:5:int mbed::ATCmdParser::read(char*, int)	32	static
+../platform/ATCmdParser.cpp:111:5:int mbed::ATCmdParser::vprintf(const char*, va_list)	32	static
+../platform/ATCmdParser.cpp:127:5:int mbed::ATCmdParser::vscanf(const char*, va_list)	48	static
+../platform/ATCmdParser.cpp:190:6:bool mbed::ATCmdParser::vsend(const char*, va_list)	32	static
+../platform/ATCmdParser.cpp:214:6:bool mbed::ATCmdParser::vrecv(const char*, va_list)	56	static
+../platform/ATCmdParser.cpp:345:5:)	20	static
+../platform/ATCmdParser.cpp:354:5:)	20	static
+../platform/ATCmdParser.cpp:363:6:)	20	static
+../platform/ATCmdParser.cpp:372:6:)	20	static
+../platform/ATCmdParser.h:75:12:mbed::ATCmdParser::oob::oob()	16	static
+../platform/ATCmdParser.cpp:382:6:void mbed::ATCmdParser::oob(const char*, mbed::Callback<void()>)	32	static
+../platform/ATCmdParser.cpp:392:6:void mbed::ATCmdParser::abort()	8	static
+../platform/ATCmdParser.cpp:397:6:bool mbed::ATCmdParser::process_oob()	24	static
+../platform/Callback.h:281:5:mbed::Callback<R()>::~Callback() [with R = void]	16	static
+../platform/Callback.h:576:7:R mbed::Callback<R()>::operator()() const [with R = void]	16	static
+../platform/Callback.h:83:5:mbed::Callback<R()>::Callback(R (*)()) [with R = void]	16	static
+../platform/Callback.h:556:15:mbed::Callback<R()>& mbed::Callback<R()>::operator=(const mbed::Callback<R()>&) [with R = void]	16	static
+../platform/Callback.h:568:7:R mbed::Callback<R()>::call() const [with R = void]	16	static
+../platform/Callback.h:633:10:void mbed::Callback<R()>::generate(const F&) [with F = void (*)(); R = void]	16	static
+../platform/Callback.h:95:5:mbed::Callback<R()>::Callback(const mbed::Callback<R()>&) [with R = void]	16	static
+../platform/Callback.h:650:14:static R mbed::Callback<R()>::function_call(const void*) [with F = void (*)(); R = void]	16	static
+../platform/Callback.h:656:17:static void mbed::Callback<R()>::function_move(void*, const void*) [with F = void (*)(); R = void]	16	static
+../platform/Callback.h:662:17:static void mbed::Callback<R()>::function_dtor(void*) [with F = void (*)(); R = void]	8	static

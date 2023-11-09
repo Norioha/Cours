@@ -1,0 +1,12 @@
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/cmsis/TARGET_CORTEX_M/core_cm3.h:1512:22:__NVIC_EnableIRQ	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/cmsis/TARGET_CORTEX_M/core_cm3.h:1548:22:__NVIC_DisableIRQ	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/cmsis/TARGET_CORTEX_M/core_cm3.h:1586:22:__NVIC_SetPendingIRQ	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/cmsis/TARGET_CORTEX_M/core_cm3.h:1737:22:__NVIC_SetVector	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/us_ticker.c:20:22:us_ticker_get_info	0	static
+../targets/TARGET_NXP/TARGET_LPC176X/us_ticker.c:45:6:us_ticker_init	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/us_ticker.c:68:10:us_ticker_read	0	static
+../targets/TARGET_NXP/TARGET_LPC176X/us_ticker.c:72:6:us_ticker_set_interrupt	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/us_ticker.c:79:6:us_ticker_fire_interrupt	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/us_ticker.c:84:6:us_ticker_disable_interrupt	0	static
+../targets/TARGET_NXP/TARGET_LPC176X/us_ticker.c:88:6:us_ticker_clear_interrupt	0	static
+../targets/TARGET_NXP/TARGET_LPC176X/us_ticker.c:92:6:us_ticker_free	8	static

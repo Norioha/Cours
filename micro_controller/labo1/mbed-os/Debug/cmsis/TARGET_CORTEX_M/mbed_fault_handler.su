@@ -1,0 +1,3 @@
+../cmsis/TARGET_CORTEX_M/mbed_fault_handler.c:44:6:mbed_fault_handler	32	static
+../cmsis/TARGET_CORTEX_M/mbed_fault_handler.c:83:20:print_context_info	40	static
+../cmsis/TARGET_CORTEX_M/mbed_fault_handler.c:144:21:mbed_get_reboot_fault_context	16	static

@@ -1,0 +1,37 @@
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/arm-none-eabi/include/c++/12.2.1/new:174:33:void* operator new(std::size_t, void*)	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/Ticker.h:70:5:mbed::Ticker::Ticker()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/Timeout.h:58:7:mbed::Timeout::Timeout()	16	static
+../hal/LowPowerTickerWrapper.cpp:20:1:LowPowerTickerWrapper::LowPowerTickerWrapper(const ticker_data_t*, const ticker_interface_t*, uint32_t, uint32_t)	24	static
+../hal/LowPowerTickerWrapper.cpp:32:6:void LowPowerTickerWrapper::irq_handler(ticker_irq_handler_type)	16	static
+../hal/LowPowerTickerWrapper.cpp:57:6:void LowPowerTickerWrapper::suspend()	24	static
+../hal/LowPowerTickerWrapper.cpp:75:6:void LowPowerTickerWrapper::resume()	24	static
+../hal/LowPowerTickerWrapper.cpp:92:6:bool LowPowerTickerWrapper::timeout_pending()	24	static
+../hal/LowPowerTickerWrapper.cpp:102:6:void LowPowerTickerWrapper::init()	16	static
+../hal/LowPowerTickerWrapper.cpp:112:6:void LowPowerTickerWrapper::free()	16	static
+../hal/LowPowerTickerWrapper.cpp:122:10:uint32_t LowPowerTickerWrapper::read()	24	static
+../hal/LowPowerTickerWrapper.cpp:135:6:void LowPowerTickerWrapper::set_interrupt(timestamp_t)	16	static
+../hal/LowPowerTickerWrapper.cpp:153:6:void LowPowerTickerWrapper::disable_interrupt()	16	static
+../hal/LowPowerTickerWrapper.cpp:162:6:void LowPowerTickerWrapper::clear_interrupt()	16	static
+../hal/LowPowerTickerWrapper.cpp:171:6:void LowPowerTickerWrapper::fire_interrupt()	16	static
+../hal/LowPowerTickerWrapper.cpp:181:22:const ticker_info_t* LowPowerTickerWrapper::get_info()	24	static
+../hal/LowPowerTickerWrapper.cpp:192:6:void LowPowerTickerWrapper::_reset()	32	static
+../hal/LowPowerTickerWrapper.cpp:216:6:void LowPowerTickerWrapper::_timeout_handler()	24	static
+../hal/LowPowerTickerWrapper.cpp:238:6:bool LowPowerTickerWrapper::_match_check(timestamp_t)	16	static
+../hal/LowPowerTickerWrapper.cpp:250:10:uint32_t LowPowerTickerWrapper::_lp_ticks_to_us(uint32_t)	16	static
+../hal/LowPowerTickerWrapper.cpp:258:6:void LowPowerTickerWrapper::_schedule_match(timestamp_t)	104	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::Ticker]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:83:5:mbed::Callback<R()>::Callback(R (*)()) [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:281:5:mbed::Callback<R()>::~Callback() [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::Timeout]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:3865:15:mbed::Callback<R()> mbed::callback(U*, R (T::*)()) [with T = LowPowerTickerWrapper; U = LowPowerTickerWrapper; R = void]	24	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:633:10:void mbed::Callback<R()>::generate(const F&) [with F = void (*)(); R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:108:5:mbed::Callback<R()>::Callback(U*, R (T::*)()) [with T = LowPowerTickerWrapper; U = LowPowerTickerWrapper; R = void]	40	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:650:14:static R mbed::Callback<R()>::function_call(const void*) [with F = void (*)(); R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:656:17:static void mbed::Callback<R()>::function_move(void*, const void*) [with F = void (*)(); R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:662:17:static void mbed::Callback<R()>::function_dtor(void*) [with F = void (*)(); R = void]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:673:9:mbed::Callback<R()>::method_context<O, M>::method_context(O*, M) [with O = LowPowerTickerWrapper; M = void (LowPowerTickerWrapper::*)(); R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:633:10:void mbed::Callback<R()>::generate(const F&) [with F = mbed::Callback<void()>::method_context<LowPowerTickerWrapper, void (LowPowerTickerWrapper::*)()>; R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:650:14:static R mbed::Callback<R()>::function_call(const void*) [with F = mbed::Callback<void()>::method_context<LowPowerTickerWrapper, void (LowPowerTickerWrapper::*)()>; R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:656:17:static void mbed::Callback<R()>::function_move(void*, const void*) [with F = mbed::Callback<void()>::method_context<LowPowerTickerWrapper, void (LowPowerTickerWrapper::*)()>; R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:662:17:static void mbed::Callback<R()>::function_dtor(void*) [with F = mbed::Callback<void()>::method_context<LowPowerTickerWrapper, void (LowPowerTickerWrapper::*)()>; R = void]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:676:11:R mbed::Callback<R()>::method_context<O, M>::operator()() const [with O = LowPowerTickerWrapper; M = void (LowPowerTickerWrapper::*)(); R = void]	16	static

@@ -1,0 +1,19 @@
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/arm-none-eabi/include/c++/12.2.1/new:174:33:void* operator new(std::size_t, void*)	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/Ticker.h:140:13:mbed::Ticker::~Ticker()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/Ticker.h:140:13:virtual mbed::Ticker::~Ticker()	16	static
+../drivers/Ticker.cpp:26:6:void mbed::Ticker::detach()	32	static
+../drivers/Ticker.cpp:39:6:void mbed::Ticker::setup(us_timestamp_t)	40	static
+../drivers/Ticker.cpp:48:6:virtual void mbed::Ticker::handler()	24	static
+../drivers/Ticker.cpp:56:6:void mbed::Ticker::attach_us(mbed::Callback<void()>, us_timestamp_t)	24	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:178:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::Ticker]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:83:5:mbed::Callback<R()>::Callback(R (*)()) [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:281:5:mbed::Callback<R()>::~Callback() [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:95:5:mbed::Callback<R()>::Callback(const mbed::Callback<R()>&) [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:583:5:mbed::Callback<R()>::operator bool() const [with R = void]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:556:15:mbed::Callback<R()>& mbed::Callback<R()>::operator=(const mbed::Callback<R()>&) [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:576:7:R mbed::Callback<R()>::operator()() const [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:633:10:void mbed::Callback<R()>::generate(const F&) [with F = void (*)(); R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:568:7:R mbed::Callback<R()>::call() const [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:650:14:static R mbed::Callback<R()>::function_call(const void*) [with F = void (*)(); R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:656:17:static void mbed::Callback<R()>::function_move(void*, const void*) [with F = void (*)(); R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:662:17:static void mbed::Callback<R()>::function_dtor(void*) [with F = void (*)(); R = void]	8	static

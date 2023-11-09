@@ -1,0 +1,10 @@
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/Ticker.h:140:13:mbed::Ticker::~Ticker()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/Ticker.h:140:13:virtual mbed::Ticker::~Ticker()	16	static
+../drivers/Timeout.cpp:21:6:virtual void mbed::Timeout::handler()	32	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:178:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::Ticker]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:281:5:mbed::Callback<R()>::~Callback() [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:95:5:mbed::Callback<R()>::Callback(const mbed::Callback<R()>&) [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/Callback.h:568:7:R mbed::Callback<R()>::call() const [with R = void]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/Timeout.h:58:7:mbed::Timeout::~Timeout()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/Timeout.h:58:7:virtual mbed::Timeout::~Timeout()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:178:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::Timeout]	8	static

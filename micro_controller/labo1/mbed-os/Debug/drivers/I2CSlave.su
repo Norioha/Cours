@@ -1,0 +1,9 @@
+../drivers/I2CSlave.cpp:23:1:mbed::I2CSlave::I2CSlave(PinName, PinName)	24	static
+../drivers/I2CSlave.cpp:30:6:void mbed::I2CSlave::frequency(int)	16	static
+../drivers/I2CSlave.cpp:35:6:void mbed::I2CSlave::address(int)	24	static
+../drivers/I2CSlave.cpp:41:5:int mbed::I2CSlave::receive()	16	static
+../drivers/I2CSlave.cpp:46:5:int mbed::I2CSlave::read(char*, int)	24	static
+../drivers/I2CSlave.cpp:51:5:int mbed::I2CSlave::read()	16	static
+../drivers/I2CSlave.cpp:56:5:int mbed::I2CSlave::write(const char*, int)	24	static
+../drivers/I2CSlave.cpp:61:5:int mbed::I2CSlave::write(int)	16	static
+../drivers/I2CSlave.cpp:66:6:void mbed::I2CSlave::stop()	16	static

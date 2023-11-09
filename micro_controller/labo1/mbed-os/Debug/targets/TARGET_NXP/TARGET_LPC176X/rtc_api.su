@@ -1,0 +1,5 @@
+../targets/TARGET_NXP/TARGET_LPC176X/rtc_api.c:37:6:rtc_init	0	static
+../targets/TARGET_NXP/TARGET_LPC176X/rtc_api.c:44:6:rtc_free	0	static
+../targets/TARGET_NXP/TARGET_LPC176X/rtc_api.c:55:5:rtc_isenabled	0	static
+../targets/TARGET_NXP/TARGET_LPC176X/rtc_api.c:81:8:rtc_read	56	static
+../targets/TARGET_NXP/TARGET_LPC176X/rtc_api.c:100:6:rtc_write	56	static

@@ -1,0 +1,8 @@
+../platform/mbed_alloc_wrappers.cpp:64:6:void mbed_stats_heap_get(mbed_stats_heap_t*)	16	static
+../platform/mbed_alloc_wrappers.cpp:95:18:void* __wrap__malloc_r(_reent*, size_t)	16	static
+../platform/mbed_alloc_wrappers.cpp:100:18:void* malloc_wrapper(_reent*, size_t, void*)	32	static
+../platform/mbed_alloc_wrappers.cpp:134:18:void* __wrap__realloc_r(_reent*, void*, size_t)	32	static
+../platform/mbed_alloc_wrappers.cpp:177:17:void __wrap__free_r(_reent*, void*)	16	static
+../platform/mbed_alloc_wrappers.cpp:182:17:void free_wrapper(_reent*, void*, void*)	24	static
+../platform/mbed_alloc_wrappers.cpp:215:18:void* __wrap__calloc_r(_reent*, size_t, size_t)	32	static
+../platform/mbed_alloc_wrappers.cpp:238:18:void* __wrap__memalign_r(_reent*, size_t, size_t)	24	static

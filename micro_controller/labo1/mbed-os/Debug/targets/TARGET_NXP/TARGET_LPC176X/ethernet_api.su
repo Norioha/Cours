@@ -1,0 +1,15 @@
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:385:19:rinc	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:392:28:clockselect	0	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:435:5:ethernet_init	32	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:531:6:ethernet_free	0	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:546:5:ethernet_write	40	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:614:5:ethernet_send	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:671:5:ethernet_receive	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:732:5:ethernet_read	48	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:802:5:ethernet_link	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:812:12:phy_write	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:828:12:phy_read	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:845:13:txdscr_init	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:862:13:rxdscr_init	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:879:6:ethernet_address	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/ethernet_api.c:883:6:ethernet_set_link	24	static

@@ -1,0 +1,17 @@
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:59:6:spi_init	48	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:85:6:spi_free	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:87:6:spi_format	56	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:118:6:spi_frequency	32	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:158:19:ssp_disable	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:162:19:ssp_enable	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:166:19:ssp_readable	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:170:19:ssp_writeable	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:174:20:ssp_write	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:179:19:ssp_read	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:184:19:ssp_busy	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:188:5:spi_master_write	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:193:5:spi_master_block_write	40	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:208:5:spi_slave_receive	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:212:5:spi_slave_read	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:216:6:spi_slave_write	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/spi_api.c:221:5:spi_busy	16	static

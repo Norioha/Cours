@@ -1,0 +1,6 @@
+../platform/FileSystemHandle.cpp:23:5:virtual int mbed::FileSystemHandle::open(mbed::DirHandle**, const char*)	16	static
+../platform/FileSystemHandle.cpp:28:5:virtual int mbed::FileSystemHandle::remove(const char*)	8	static
+../platform/FileSystemHandle.cpp:33:5:virtual int mbed::FileSystemHandle::rename(const char*, const char*)	16	static
+../platform/FileSystemHandle.cpp:38:5:virtual int mbed::FileSystemHandle::stat(const char*, stat*)	16	static
+../platform/FileSystemHandle.cpp:43:5:virtual int mbed::FileSystemHandle::mkdir(const char*, mode_t)	16	static
+../platform/FileSystemHandle.cpp:48:5:virtual int mbed::FileSystemHandle::statvfs(const char*, statvfs*)	16	static

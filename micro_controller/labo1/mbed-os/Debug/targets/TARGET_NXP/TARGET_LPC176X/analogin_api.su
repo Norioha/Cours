@@ -1,0 +1,7 @@
+../targets/TARGET_NXP/TARGET_LPC176X/analogin_api.c:27:19:div_round_up	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/analogin_api.c:45:6:analogin_init	32	static
+../targets/TARGET_NXP/TARGET_LPC176X/analogin_api.c:74:24:adc_read	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/analogin_api.c:92:20:order	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/analogin_api.c:100:24:adc_read_u32	32	static
+../targets/TARGET_NXP/TARGET_LPC176X/analogin_api.c:116:10:analogin_read_u16	24	static
+../targets/TARGET_NXP/TARGET_LPC176X/analogin_api.c:122:7:analogin_read	24	static

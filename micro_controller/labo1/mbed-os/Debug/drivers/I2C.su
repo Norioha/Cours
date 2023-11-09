@@ -1,0 +1,35 @@
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_object.h:35:20:void gpio_write(gpio_t*, int)	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/targets/TARGET_NXP/TARGET_LPC176X/gpio_object.h:43:19:int gpio_read(gpio_t*)	16	static
+/usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.8.0.202306131047/tools/arm-none-eabi/include/c++/12.2.1/new:174:33:void* operator new(std::size_t, void*)	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:45:20:void singleton_lock()	0	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:62:20:void singleton_unlock()	0	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:53:5:PlatformMutex::PlatformMutex()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:71:10:void PlatformMutex::lock()	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/PlatformMutex.h:81:10:void PlatformMutex::unlock()	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/I2C.h:173:13:mbed::I2C::~I2C()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/I2C.h:173:13:virtual mbed::I2C::~I2C()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/DigitalInOut.h:53:5:mbed::DigitalInOut::DigitalInOut(PinName, PinDirection, PinMode, int)	32	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/DigitalInOut.h:64:10:void mbed::DigitalInOut::write(int)	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/DigitalInOut.h:76:9:int mbed::DigitalInOut::read()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/DigitalInOut.h:84:10:void mbed::DigitalInOut::output()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/DigitalInOut.h:93:10:void mbed::DigitalInOut::input()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/DigitalInOut.h:104:10:void mbed::DigitalInOut::mode(PinMode)	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/DigitalInOut.h:133:19:mbed::DigitalInOut& mbed::DigitalInOut::operator=(int)	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./drivers/DigitalInOut.h:162:5:mbed::DigitalInOut::operator int()	16	static
+../drivers/I2C.cpp:33:1:mbed::I2C::I2C(PinName, PinName)	24	static
+../drivers/I2C.cpp:50:6:void mbed::I2C::frequency(int)	16	static
+../drivers/I2C.cpp:63:6:void mbed::I2C::aquire()	16	static
+../drivers/I2C.cpp:74:5:int mbed::I2C::write(int, const char*, int, bool)	40	static
+../drivers/I2C.cpp:86:5:int mbed::I2C::write(int)	24	static
+../drivers/I2C.cpp:95:5:int mbed::I2C::read(int, char*, int, bool)	40	static
+../drivers/I2C.cpp:107:5:int mbed::I2C::read(int)	24	static
+../drivers/I2C.cpp:120:6:void mbed::I2C::start()	16	static
+../drivers/I2C.cpp:127:6:void mbed::I2C::stop()	16	static
+../drivers/I2C.cpp:134:6:virtual void mbed::I2C::lock()	16	static
+../drivers/I2C.cpp:139:6:virtual void mbed::I2C::unlock()	16	static
+../drivers/I2C.cpp:144:5:int mbed::I2C::recover(PinName, PinName)	88	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = PlatformMutex]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:178:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::I2C]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::I2C]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:113:8:T* SingletonPtr<T>::operator->() const [with T = PlatformMutex]	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/SingletonPtr.h:93:8:T* SingletonPtr<T>::get() const [with T = PlatformMutex]	16	static

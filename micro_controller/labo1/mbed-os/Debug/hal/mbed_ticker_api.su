@@ -1,0 +1,17 @@
+../hal/mbed_ticker_api.c:29:13:initialize	128	static
+../hal/mbed_ticker_api.c:87:13:set_handler	8	static
+../hal/mbed_ticker_api.c:111:23:convert_timestamp	64	static
+../hal/mbed_ticker_api.c:126:13:update_present_time	272	static
+../hal/mbed_ticker_api.c:178:20:compute_tick_round_up	88	static
+../hal/mbed_ticker_api.c:216:5:_ticker_match_interval_passed	16	static
+../hal/mbed_ticker_api.c:238:13:schedule_interrupt	48	static
+../hal/mbed_ticker_api.c:279:6:ticker_set_handler	16	static
+../hal/mbed_ticker_api.c:288:6:ticker_irq_handler	24	static
+../hal/mbed_ticker_api.c:329:6:ticker_insert_event	40	static
+../hal/mbed_ticker_api.c:349:6:ticker_insert_event_us	32	static
+../hal/mbed_ticker_api.c:388:6:ticker_remove_event	24	static
+../hal/mbed_ticker_api.c:412:13:ticker_read	16	static
+../hal/mbed_ticker_api.c:417:16:ticker_read_us	24	static
+../hal/mbed_ticker_api.c:431:5:ticker_get_next_timestamp	24	static
+../hal/mbed_ticker_api.c:446:6:ticker_suspend	16	static
+../hal/mbed_ticker_api.c:455:6:ticker_resume	16	static

@@ -1,0 +1,6 @@
+../targets/TARGET_NXP/TARGET_LPC176X/port_api.c:20:9:port_pin	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/port_api.c:24:6:port_init	32	static
+../targets/TARGET_NXP/TARGET_LPC176X/port_api.c:48:6:port_mode	24	static
+../targets/TARGET_NXP/TARGET_LPC176X/port_api.c:58:6:port_dir	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/port_api.c:65:6:port_write	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/port_api.c:69:5:port_read	8	static

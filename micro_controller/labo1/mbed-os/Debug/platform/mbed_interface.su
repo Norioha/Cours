@@ -1,0 +1,8 @@
+../platform/mbed_interface.c:29:5:mbed_interface_connected	8	static
+../platform/mbed_interface.c:34:5:mbed_interface_reset	8	static
+../platform/mbed_interface.c:44:10:mbed_interface_uid	16	static
+../platform/mbed_interface.c:54:5:mbed_interface_disconnect	16	static
+../platform/mbed_interface.c:68:5:mbed_interface_powerdown	16	static
+../platform/mbed_interface.c:84:6:mbed_reset	8	static
+../platform/mbed_interface.c:89:10:mbed_uid	16	static
+../platform/mbed_interface.c:95:11:mbed_mac_address	64	static

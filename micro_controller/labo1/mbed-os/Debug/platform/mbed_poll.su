@@ -1,0 +1,1 @@
+../platform/mbed_poll.cpp:31:5:int mbed::poll(pollfh*, unsigned int, int)	72	static

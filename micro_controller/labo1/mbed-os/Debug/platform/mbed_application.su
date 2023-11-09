@@ -1,0 +1,4 @@
+../platform/mbed_application.c:61:6:mbed_start_application	24	static
+../platform/mbed_application.c:90:13:powerdown_nvic	16	static
+../platform/mbed_application.c:115:13:powerdown_scb	16	static
+../platform/mbed_application.c:170:6:start_new_application	8	static

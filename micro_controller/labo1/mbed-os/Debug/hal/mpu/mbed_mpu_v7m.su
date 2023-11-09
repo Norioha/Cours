@@ -1,0 +1,7 @@
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/cmsis/TARGET_CORTEX_M/mpu_armv7.h:216:22:ARM_MPU_ClrRegion	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/cmsis/TARGET_CORTEX_M/mpu_armv7.h:226:22:ARM_MPU_SetRegion	8	static
+../hal/mpu/mbed_mpu_v7m.c:46:6:mbed_mpu_init	16	static
+../hal/mpu/mbed_mpu_v7m.c:192:6:mbed_mpu_free	0	static
+../hal/mpu/mbed_mpu_v7m.c:205:13:enable_region	8	static
+../hal/mpu/mbed_mpu_v7m.c:211:6:mbed_mpu_enable_rom_wn	16	static
+../hal/mpu/mbed_mpu_v7m.c:223:6:mbed_mpu_enable_ram_xn	24	static

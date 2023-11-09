@@ -1,0 +1,14 @@
+../drivers/Timer.cpp:25:1:mbed::Timer::Timer()	16	static
+../drivers/Timer.cpp:30:1:mbed::Timer::Timer(const ticker_data_t*)	16	static
+../drivers/Timer.cpp:38:1:mbed::Timer::~Timer()	16	static
+../drivers/Timer.cpp:50:6:void mbed::Timer::start()	16	static
+../drivers/Timer.cpp:63:6:void mbed::Timer::stop()	24	static
+../drivers/Timer.cpp:76:5:int mbed::Timer::read_us()	16	static
+../drivers/Timer.cpp:81:7:float mbed::Timer::read()	16	static
+../drivers/Timer.cpp:86:5:int mbed::Timer::read_ms()	16	static
+../drivers/Timer.cpp:91:16:us_timestamp_t mbed::Timer::read_high_resolution_us()	40	static
+../drivers/Timer.cpp:99:16:us_timestamp_t mbed::Timer::slicetime()	32	static
+../drivers/Timer.cpp:110:6:void mbed::Timer::reset()	16	static
+../drivers/Timer.cpp:118:1:mbed::Timer::operator float()	16	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:174:5:mbed::NonCopyable<T>::NonCopyable() [with T = mbed::Timer]	8	static
+/home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/./platform/NonCopyable.h:178:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::Timer]	8	static

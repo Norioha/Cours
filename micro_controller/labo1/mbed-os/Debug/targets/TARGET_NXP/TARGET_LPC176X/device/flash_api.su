@@ -1,0 +1,10 @@
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:57:15:GetSecNum	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:68:9:flash_init	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:77:9:flash_free	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:82:9:flash_erase_sector	24	static
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:111:9:flash_program_page	40	static
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:176:10:flash_get_sector_size	16	static
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:188:10:flash_get_page_size	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:193:10:flash_get_start_address	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:198:10:flash_get_size	8	static
+../targets/TARGET_NXP/TARGET_LPC176X/device/flash_api.c:203:9:flash_get_erase_value	8	static

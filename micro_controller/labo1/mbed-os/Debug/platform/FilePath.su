@@ -1,0 +1,7 @@
+../platform/FilePath.cpp:21:1:mbed::FilePath::FilePath(const char*)	32	static
+../platform/FilePath.cpp:46:13:const char* mbed::FilePath::fileName()	8	static
+../platform/FilePath.cpp:51:6:bool mbed::FilePath::isFileSystem()	16	static
+../platform/FilePath.cpp:59:17:mbed::FileSystemLike* mbed::FilePath::fileSystem()	16	static
+../platform/FilePath.cpp:67:6:bool mbed::FilePath::isFile()	16	static
+../platform/FilePath.cpp:75:11:mbed::FileLike* mbed::FilePath::file()	16	static
+../platform/FilePath.cpp:83:6:bool mbed::FilePath::exists()	8	static

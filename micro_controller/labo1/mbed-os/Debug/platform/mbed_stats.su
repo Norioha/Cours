@@ -1,0 +1,5 @@
+../platform/mbed_stats.c:20:6:mbed_stats_cpu_get	16	static
+../platform/mbed_stats.c:33:6:mbed_stats_stack_get	16	static
+../platform/mbed_stats.c:64:8:mbed_stats_stack_get_each	24	static
+../platform/mbed_stats.c:98:8:mbed_stats_thread_get_each	24	static
+../platform/mbed_stats.c:127:6:mbed_stats_sys_get	16	static
