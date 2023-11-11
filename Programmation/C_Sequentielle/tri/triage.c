@@ -3,6 +3,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <math.h>
+/// @brief affiche le tableau 
+/// @param size 
+/// @param tab 
 void print(int size, int tab[size])
 {
     for (int i = 0; i < size; i++)
@@ -10,27 +13,15 @@ void print(int size, int tab[size])
         printf("%d ", tab[i]);
     }
 }
-int size_array(int tab[])
-{
-    int size = sizeof(tab) / sizeof(tab[0]);
-    int count = 0;
-    for (int i = 0; i < size; i++)
-    {
-        count++;
-    }
-    return count;
-}
-void swap(int *a, int *b)
-{
-    int size = size_array(a);
-    for (int i = 0; i < size; i++)
-    {
-        int temp = *(a + i);
-        *(a + i) = *(b + i);
-        *(b + i) = temp;
-    }
-}
 
+
+
+
+/// @brief crée un tableau avec des nombres aléatoires
+/// @param size 
+/// @param tab 
+/// @param inf 
+/// @param sup 
 void random_tab(int size, int tab[size], int inf, int sup)
 {
     for (int i = 0; i < size; i++)
@@ -39,15 +30,17 @@ void random_tab(int size, int tab[size], int inf, int sup)
     }
 }
 
-void selection_sort(int size, int tab[size])
-{
-    // à compléter
-}
 
-void alveole_0(int size, int tab[size], int tab_tmp[size], int pos)
+/// @brief regarde si la valeur en binaire à la pos donné est == 0
+/// si oui copie la valeur dans un tableau temporaire
+/// @param size 
+/// @param tab 
+/// @param tab_tmp 
+/// @param pos 
+void alveole_0(int size, int tab[], int tab_tmp[], int pos)
 {
     int k = 0;
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size; i++)
     {
         if (bit(tab[i], pos) == 0)
         {
@@ -56,25 +49,37 @@ void alveole_0(int size, int tab[size], int tab_tmp[size], int pos)
         }
     }
 }
-
-void alveole_1(int size, int tab[size], int tab_tmp[size], int pos)
+/// @brief regarde si la valeur en binaire à la pos donné est == 1
+/// si oui copie la valeur dans un tableau temporaire
+/// @param size 
+/// @param tab 
+/// @param tab_tmp 
+/// @param pos 
+void alveole_1(int size, int tab[], int tab_tmp[], int pos)
 {
     int k = size - 1;
-    for (int i = size - 1; i > 0; i--)
+    for (int i = size - 1; i >= 0; i--)
     {
-        if (bit(tab[i], pos) == 0)
+        if (bit(tab[i], pos) == 1)
         {
             tab_tmp[k] = tab[i];
             k -= 1;
         }
     }
 }
-
+/// @brief 
+/// @param val 
+/// @param pos 
+/// @return retourne si le bit de la valeur(pos) 1 ou 0
 int bit(int val, int pos)
 {
     int mask = 1 << pos;
     return (val & mask) != 0;
 }
+/// @brief compte combien de bits est fait sur diff (a - b)
+/// @param a 
+/// @param b 
+/// @return 
 int nombre_de_bits(int a, int b)
 {
     int count = 0;
@@ -86,8 +91,11 @@ int nombre_de_bits(int a, int b)
     }
     return count;
 }
-
-int value_min(int size, int tab[])
+/// @brief 
+/// @param size 
+/// @param tab 
+/// @return la valeur la plus petite valeur du tableau
+int value_min(int size, int tab[size])
 {
     int min = tab[0];
     for (int i = 0; i < size; i++)
@@ -99,7 +107,10 @@ int value_min(int size, int tab[])
     }
     return min;
 }
-
+/// @brief 
+/// @param size 
+/// @param tab 
+/// @return retourne la plus grande valeur du tableau
 int value_max(int size, int tab[])
 {
     int max = tab[0];
@@ -112,25 +123,32 @@ int value_max(int size, int tab[])
     }
     return max;
 }
-void decaler(int size, int tab[size], int val)
+
+/// @brief fait en sorte que toutes les valeurs soit positives (décalage de nombre)
+/// @param size 
+/// @param tab 
+/// @param val 
+void decaler(int size, int tab[], int val)
 {
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size; i++)
     {
-        tab[i] += val;
+        tab[i] -= val;
     }
 }
 
-void merge(int tab_g[], int tab_d[], int res[])
+// Fusionne deux tableaux triés
+void merge(int tab_g[], int taille_g, int tab_d[], int taille_d, int res[])
 {
-    int g = size_array(tab_g);
-    int d = size_array(tab_d);
     int i_g = 0;
     int i_d = 0;
 
-    for (int i = 0; i < g + d; i++)
+    // Parcourir tous les éléments des deux tableaux
+    for (int i = 0; i < taille_g + taille_d; i++)
     {
-        if (i_g < g && i_d < d)
+        // Si les deux tableaux ont des éléments non traités
+        if (i_g < taille_g && i_d < taille_d)
         {
+            // Choisir le plus petit élément non traité
             if (tab_g[i_g] < tab_d[i_d])
             {
                 res[i] = tab_g[i_g];
@@ -142,12 +160,14 @@ void merge(int tab_g[], int tab_d[], int res[])
                 i_d += 1;
             }
         }
-        else if (i_g < g)
+        // Si seul le tableau de gauche a des éléments non traités
+        else if (i_g < taille_g)
         {
             res[i] = tab_g[i_g];
             i_g += 1;
         }
-        else if (i_d < d)
+        // Si seul le tableau de droite a des éléments non traités
+        else if (i_d < taille_d)
         {
             res[i] = tab_d[i_d];
             i_d += 1;
@@ -155,27 +175,50 @@ void merge(int tab_g[], int tab_d[], int res[])
     }
 }
 
-void merge_sort(int size, int tab[size])
+// Trie un tableau en utilisant l'algorithme de tri fusion
+void merge_sort(int taille, int tab[])
 {
-    int tab_tmp[size];
-    int nb_steps = log2(size) + 1;
-    int t_tranche;
-    int left;
-    for (int i = 0; i < nb_steps - 1; i++)
-    {
-        left = 0;
-        t_tranche = pow(2, i);
-        while (left < size)
-        {
-            merge(
-                tab[left + t_tranche - 1],
-                tab[left + t_tranche + 2 * t_tranche - 1],
-                tab_tmp[left + 2 * t_tranche - 1]);
-            left += 2 * t_tranche;
-        }
-        swap(tab, tab_tmp);
-    }
+    // Si le tableau a moins de deux éléments, il est déjà trié
+    if (taille < 2)
+        return;
+
+    // Diviser le tableau en deux moitiés
+    int milieu = taille / 2;
+    // alloue de la mémoire pour le tableau gauche qui a une taille de milieu
+    int *gauche = malloc(milieu * sizeof(int)); 
+
+    // note Malloc : malloc est une fonction en C qui est utilisée pour allouer dynamiquement de la mémoire sur le tas. 
+    // Elle renvoie un pointeur vers le premier octet de la mémoire allouée. Vous pouvez alors utiliser ce pointeur pour accéder à cette mémoire. 
+    //  Dans votre cas, vous utilisez cette mémoire pour stocker les éléments de vos tableaux gauche et droite.
+
+    int *droite = malloc((taille - milieu) * sizeof(int));
+
+    // Remplir le tableau de gauche
+    for (int i = 0; i < milieu; i++)
+        gauche[i] = tab[i];
+
+    // Remplir le tableau de droite
+    for (int i = milieu; i < taille; i++)
+        droite[i - milieu] = tab[i];
+
+    // Trier récursivement les deux moitiés
+    merge_sort(milieu, gauche);
+    merge_sort(taille - milieu, droite);
+
+    // Fusionner les deux moitiés triées
+    merge(gauche, milieu, droite, taille - milieu, tab);
+
+    // Libérer la mémoire allouée
+    free(gauche);
+    free(droite);
 }
+
+
+void selection_sort(int size, int tab[size])
+{
+    // à compléter
+}
+
 
 // Tri rapide récursif
 void quick_sort(int size, int array[size], int first, int last)
@@ -183,10 +226,47 @@ void quick_sort(int size, int array[size], int first, int last)
     // à compléter
 }
 
+
+/// @brief fonction principale du radix sort
+/// @param size 
+/// @param tab 
+void radix_sort(int size, int tab[size])
+{
+    // init
+    int val_min = value_min(size, tab);
+    int val_max = value_max(size, tab);
+
+
+    //décalage pour que tous les nombres soit positifs
+    decaler(size, tab, val_min);
+    int nb_bits = nombre_de_bits(val_max, val_min);
+    //printf("%d \n",nb_bits);
+
+    // algo
+    int tab_tmp[size];
+    //boucle qui regarde chaque bit de la valeur 
+    for (int pos = 0; pos < nb_bits; pos++)
+    {   
+
+        alveole_0(size, tab, tab_tmp, pos);
+        alveole_1(size, tab, tab_tmp, pos);
+        // copy tab_tmp to tab
+        for (int i = 0; i < size; i++)
+        {
+            tab[i] = tab_tmp[i];
+        }
+    }
+
+
+    // post-traitement 
+    decaler(size,tab,-val_min);
+}
+
+
 // Déterminer si le tableau est trié ou non
 bool is_sorted(int size, int tab[size])
 {
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < size-1; i++)
     {
         if (tab[i] > tab[i + 1])
         {
@@ -194,24 +274,4 @@ bool is_sorted(int size, int tab[size])
         }
     }
     return true;
-}
-
-void radix_sort(int size, int tab[size])
-{
-    // init
-    int val_min = value_min(size, tab);
-    int val_max = value_max(size, tab);
-    decaler(size, tab, val_min);
-    int nb_bits = nombre_de_bits(val_max, val_min);
-
-    // algo
-    int tab_tmp[size];
-    for (int pos = 0; pos < nb_bits; pos++)
-    {
-        alveole_0(size, tab, tab_tmp, pos);
-        alveole_1(size, tab, tab_tmp, pos);
-    }
-
-    // post-traitement
-    decaler(size,tab,-val_min);
 }

@@ -19,7 +19,6 @@ int main(int argc, char **argv)
     int size = atoi(argv[1]);
     int seed = atoi(argv[2]);
     int sorting_algo_number = atoi(argv[3]);
-    ;
     srand(seed);
     int res[size];
     random_tab(size, res, -50, 50);
