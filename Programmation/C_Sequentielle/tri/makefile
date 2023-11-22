@@ -8,5 +8,6 @@ main.o: main.c
 
 app : triage.o main.o
 	gcc triage.o main.o -o app -lm
+
 clean:
-	rm -f *.o 
+	del /F /Q *.o 
