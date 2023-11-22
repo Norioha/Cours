@@ -1,0 +1,23 @@
+google : "les problèmes du deepfake sur l'art"
+
+
+1)Exposition EPFL deepfake: https://www.letemps.ch/culture/deep-fakes-oeuvres-dart-toucher-moderation
+	+ permet d'explorer d'autres sens comme le toucher. Alors que dans l'art traditionnel s'est interdit.
+	+ l'immersion.
+	«Il n’est pas question de tromper ou de substituer la réplique virtuelle à l’original, prévient la curatrice. 
+	Mais d’offrir au visiteur une expérience incarnée et interactive, en restituant le contexte du lieu, l’ambiance dont on peut s’imprégner et qui permettra une exploration plus personnelle.»
+
+2) art générative   https://info.haas-avocats.com/droit-digital/prompt-art-et-intelligence-artificielle-quels-risques-pour-les-auteurs
+	- risque de perte d'emplois. 
+	- entreprise utilise les ia pour remplacer les artistes pour des raisons financières
+	-la dévaluation de l’art. La valeur du travail et de la réflexion artistique pourrait être dévalulée.
+	 -"Pourrait d’ailleurs découler de cette dévaluation une absence d’originalité des créations générées par l’IA, ce qui mettrait à mal la possible qualification des IA d’ « auteurs d’œuvres de l’esprit »."
+
+
+google: deepfake on art problems
+
+
+3) https://cuseum.com/blog/2019/12/17/3-things-you-need-to-know-about-ai-powered-deep-fakes-in-art-amp-culture
+	- Potentiel à la propagande et diffamer les opposants politiques
+	-> deepfake technologie bannie pendant la saison électorale : https://www.theverge.com/2019/10/7/20902884/california-deepfake-political-ban-election-2020
+	- nouvel outil d'engagement avec le public. ex : une technique de montage vidéo et de rendu pilotée par l'IA a été utilisée pour produire une reconstitution grandeur nature de Dali à partir de milliers d'heures de séquences vidéo d'archives.
