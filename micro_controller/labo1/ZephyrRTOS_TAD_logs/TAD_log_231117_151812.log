@@ -1,0 +1,18 @@
+"Task Aware Debugger for GDB" version 11.8.0 (202306131047)
+Copyright 2016-2023 NXP
+==================================
+15:15:00.620 INFO: [ZephyrRTOS] .config file could not be read [/home/pc/Desktop/Cours/micro_controller/labo1/labo3/Debug/.config (No such file or directory)]
+15:15:00.620 INFO: [TadModel] DSF session ID 44 has started.
+15:15:02.725 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+15:15:02.771 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+15:15:03.669 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+15:15:03.754 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+15:15:09.15 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+15:15:09.88 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, BREAKPOINT)
+15:15:10.905 INFO: [TadState] TAD state changed: READY -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+15:16:01.48 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, BREAKPOINT)
+15:16:08.619 INFO: [TadState] TAD state changed: READY -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+15:16:58.903 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, BREAKPOINT)
+15:17:12.127 INFO: [TadState] TAD state changed: READY -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+15:18:10.100 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+15:18:12.324 INFO: [TadModel] DSF session ID 44 has ended.

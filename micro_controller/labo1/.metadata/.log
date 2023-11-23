@@ -1666,3 +1666,1902 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed: The applica
 	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:36)
 	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:215)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-11-10 13:56:52.288 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2023-11-10 13:56:57.552
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.cdt.ui 4 0 2023-11-10 13:56:59.908
+!MESSAGE Error in CDT UI during reconcile
+!STACK 1
+C Model Exception: C Model Status [Element labo1.cpp does not exist.]
+	at org.eclipse.cdt.internal.core.model.CElement.newNotPresentException(CElement.java:485)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:583)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:79)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:64)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:89)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:346)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2023-11-10 13:56:59.909
+!MESSAGE Element labo1.cpp does not exist.
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-10 14:00:00.252
+!MESSAGE Indexed 'labo3' (1 sources, 201 headers) in 4.16 sec: 15,006 declarations; 17,685 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-10 14:00:10.918
+!MESSAGE Indexed 'labo3' (2 sources, 201 headers) in 1.76 sec: 15,017 declarations; 17,740 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:01:43.468
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:01:43.471
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:01:43.568
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 14:01:43.568
+!MESSAGE RedlinkServer telnet session connected on port 3025->46742 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 14:01:49.155
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 14:01:49.167
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 14:01:50.216
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:01:50.220
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:01:50.223
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:01:50.810
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=33051, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 14:01:51.817
+!MESSAGE Telnet session connected on port 3330->53394 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:05:20.796
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:05:20.798
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:05:20.816
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 14:05:21.818
+!MESSAGE RedlinkServer telnet session connected on port 3025->37214 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 14:05:22.652
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:05:22.655
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:05:22.657
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:05:23.221
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=33145, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 14:05:24.225
+!MESSAGE Telnet session connected on port 3330->39714 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:05:27.551
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 14:05:27.553
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 14:05:27.781
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:02:12.951
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:02:12.954
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:02:12.972
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:02:13.975
+!MESSAGE RedlinkServer telnet session connected on port 3025->33482 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:02:14.884
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:02:14.888
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:02:14.892
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:02:15.449
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=39355, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:02:16.501
+!MESSAGE Telnet session connected on port 3330->46876 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:03:02.857
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:03:02.860
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:03:02.879
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:03:03.881
+!MESSAGE RedlinkServer telnet session connected on port 3025->37872 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:03:04.073
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:03:04.076
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 15:03:04.176
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:03:05.106
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:03:05.110
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:03:05.113
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:03:05.669
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=35073, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:03:06.680
+!MESSAGE Telnet session connected on port 3330->53062 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:04:31.634
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:04:31.637
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:04:31.658
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:04:32.661
+!MESSAGE RedlinkServer telnet session connected on port 3025->57852 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:04:33.607
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:04:33.610
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:04:33.613
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:04:34.169
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=37443, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:04:35.173
+!MESSAGE Telnet session connected on port 3330->35038 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:06:23.038
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:06:23.041
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:06:23.059
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:06:24.061
+!MESSAGE RedlinkServer telnet session connected on port 3025->35154 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:06:24.995
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:06:24.999
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:06:25.002
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:06:25.561
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=43939, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:06:26.596
+!MESSAGE Telnet session connected on port 3330->52260 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:07:12.300
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:07:12.303
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:07:12.324
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:07:13.326
+!MESSAGE RedlinkServer telnet session connected on port 3025->59808 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:07:14.236
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:07:14.240
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:07:14.243
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:07:14.801
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=44827, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:07:15.833
+!MESSAGE Telnet session connected on port 3330->59436 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:12:57.732
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:12:57.735
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:12:57.759
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:12:58.761
+!MESSAGE RedlinkServer telnet session connected on port 3025->51954 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:12:58.951
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:12:58.954
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 15:12:59.054
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:12:59.862
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:12:59.866
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:12:59.870
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:13:00.429
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=38893, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:13:01.432
+!MESSAGE Telnet session connected on port 3330->48370 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:13:57.373
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:13:57.375
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:13:57.399
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:13:58.401
+!MESSAGE RedlinkServer telnet session connected on port 3025->44244 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:13:59.331
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:13:59.334
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:13:59.337
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:13:59.901
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=35155, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:14:00.905
+!MESSAGE Telnet session connected on port 3330->43266 @ 127.0.0.1
+
+!ENTRY org.eclipse.jface 2 0 2023-11-10 15:15:38.991
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-10 15:15:38.991
+!MESSAGE A conflict occurred for CTRL+INSERT:
+Binding(CTRL+INSERT,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.copy,Copy,
+		,
+		Category(org.eclipse.tm.terminal.category1,Terminal view commands,Terminal view commands,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm.terminal.copy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.tm.terminal.EditContext,,,system)
+Binding(CTRL+INSERT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.copy,Copy,
+		Copy the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.copy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+INSERT,
+	ParameterizedCommand(Command(AnsiConsole.command.copy_without_escapes,Copy Text Without ANSI Escapes,
+		Copy the console content to clipboard, removing the escape sequences,
+		Category(AnsiConsole.command.categoryid,ANSI Support Commands,null,true),
+		WorkbenchHandlerServiceHandler("AnsiConsole.command.copy_without_escapes"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.console.ConsoleView,,,system)
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:16:04.815
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:16:04.818
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:16:04.835
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:16:05.837
+!MESSAGE RedlinkServer telnet session connected on port 3025->34058 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:16:06.181
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:16:06.184
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 15:16:06.295
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:16:07.101
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:16:07.106
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:16:07.109
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:16:07.661
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=33435, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:16:08.665
+!MESSAGE Telnet session connected on port 3330->50680 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:18:27.668
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:18:27.671
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:18:27.695
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:18:28.697
+!MESSAGE RedlinkServer telnet session connected on port 3025->43302 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:18:29.679
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:18:29.683
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:18:29.686
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:18:30.263
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=35647, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:18:31.268
+!MESSAGE Telnet session connected on port 3330->55254 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:23:55.727
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:23:55.730
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:23:55.756
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:23:56.758
+!MESSAGE RedlinkServer telnet session connected on port 3025->41232 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:23:57.685
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:23:57.688
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:23:57.691
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:23:58.249
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=37655, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:23:59.253
+!MESSAGE Telnet session connected on port 3330->32868 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:30:31.702
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:30:31.705
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2023-11-10 15:30:31.805
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 15:30:31.808
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:30:39.343
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:30:39.346
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2023-11-10 15:30:39.446
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 15:30:39.449
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:31:01.383
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:31:01.386
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2023-11-10 15:31:01.485
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 15:31:01.489
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:31:12.606
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:31:12.610
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:31:12.632
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:31:13.633
+!MESSAGE RedlinkServer telnet session connected on port 3025->50324 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:31:14.564
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:31:14.567
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:31:14.570
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:31:15.129
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=41821, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:31:16.167
+!MESSAGE Telnet session connected on port 3330->38830 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:32:46.381
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:32:46.384
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:32:46.409
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:32:47.411
+!MESSAGE RedlinkServer telnet session connected on port 3025->43950 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:32:48.349
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:32:48.352
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:32:48.355
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:32:48.913
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=41699, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:32:49.916
+!MESSAGE Telnet session connected on port 3330->52762 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:33:41.599
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:33:41.602
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:33:41.629
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:33:42.631
+!MESSAGE RedlinkServer telnet session connected on port 3025->35642 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:33:43.569
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:33:43.573
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:33:43.577
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:33:44.128
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=42969, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:33:45.132
+!MESSAGE Telnet session connected on port 3330->58258 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:36:45.208
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:36:45.212
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:36:45.231
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:36:46.233
+!MESSAGE RedlinkServer telnet session connected on port 3025->60050 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:36:46.759
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:36:46.763
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 15:36:46.867
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:36:47.430
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:36:47.434
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:36:47.438
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:36:47.992
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=43755, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:36:48.996
+!MESSAGE Telnet session connected on port 3330->44010 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:46:46.493
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:46:46.495
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:46:46.520
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:46:47.522
+!MESSAGE RedlinkServer telnet session connected on port 3025->43548 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:46:48.527
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:46:48.530
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:46:48.534
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:46:49.097
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=37809, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:46:50.100
+!MESSAGE Telnet session connected on port 3330->38236 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:47:47.000
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:47:47.003
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:47:47.029
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:47:48.030
+!MESSAGE RedlinkServer telnet session connected on port 3025->55356 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:47:48.554
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:47:48.557
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 15:47:48.658
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:47:49.285
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:47:49.289
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:47:49.292
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:47:49.852
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=40519, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:47:50.856
+!MESSAGE Telnet session connected on port 3330->47270 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:59:03.766
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:59:03.769
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:59:03.788
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:59:04.790
+!MESSAGE RedlinkServer telnet session connected on port 3025->36554 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:59:04.982
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:59:04.985
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-10 15:59:05.085
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-10 15:59:06.030
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:59:06.034
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:59:06.037
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-10 15:59:06.589
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=32799, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-10 15:59:07.642
+!MESSAGE Telnet session connected on port 3330->56704 @ 127.0.0.1
+!SESSION 2023-11-17 13:08:08.094 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2023-11-17 13:08:18.745
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:12:08.024
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:12:08.030
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:12:08.074
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:12:08.075
+!MESSAGE RedlinkServer telnet session connected on port 3025->41916 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:12:10.483
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:12:10.496
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:12:10.505
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:12:11.107
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=39367, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:12:12.120
+!MESSAGE Telnet session connected on port 3330->55076 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:13:16.317
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:13:16.322
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2023-11-17 13:13:16.431
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 13:13:16.446
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:13:23.893
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:13:23.898
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 13:13:24.009
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:13:34.100
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:13:34.105
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2023-11-17 13:13:34.209
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 13:13:34.217
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:13:54.677
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:13:54.682
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 13:13:54.797
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:18:34.990
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:18:34.995
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:18:35.032
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:18:36.035
+!MESSAGE RedlinkServer telnet session connected on port 3025->33518 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:18:37.629
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:18:37.637
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:18:37.644
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:18:38.206
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=43255, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:18:39.262
+!MESSAGE Telnet session connected on port 3330->41182 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:23:08.581
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:23:08.586
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:23:08.621
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:23:09.623
+!MESSAGE RedlinkServer telnet session connected on port 3025->40080 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:23:11.286
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:23:11.294
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:23:11.301
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:23:11.859
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=39927, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:23:12.866
+!MESSAGE Telnet session connected on port 3330->55096 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:24:01.914
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:24:01.920
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:24:01.960
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:24:02.962
+!MESSAGE RedlinkServer telnet session connected on port 3025->35390 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:24:04.533
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:24:04.540
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:24:04.546
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:24:05.107
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=41697, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:24:06.124
+!MESSAGE Telnet session connected on port 3330->55932 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:26:21.706
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:26:21.712
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:26:21.746
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:26:22.749
+!MESSAGE RedlinkServer telnet session connected on port 3025->40852 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:26:24.430
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:26:24.437
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:26:24.443
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:26:25.007
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=43587, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:26:26.062
+!MESSAGE Telnet session connected on port 3330->50250 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:35:54.371
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:35:54.377
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2023-11-17 13:35:54.478
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 13:35:54.485
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:36:01.733
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:36:01.738
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:36:01.778
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:36:02.781
+!MESSAGE RedlinkServer telnet session connected on port 3025->57404 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:36:04.291
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:36:04.298
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:36:04.304
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:36:04.862
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=37063, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:36:05.867
+!MESSAGE Telnet session connected on port 3330->37850 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:39:52.288
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:39:52.292
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:39:52.329
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:39:53.332
+!MESSAGE RedlinkServer telnet session connected on port 3025->55478 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:39:53.830
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:39:53.837
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 13:39:54.090
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:39:55.097
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:39:55.105
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:39:55.111
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:39:55.666
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=39941, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:39:56.670
+!MESSAGE Telnet session connected on port 3330->58380 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:41:00.232
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:41:00.236
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:41:00.271
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:41:01.273
+!MESSAGE RedlinkServer telnet session connected on port 3025->53162 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:41:02.739
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:41:02.747
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:41:02.753
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:41:03.319
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=45905, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:41:04.324
+!MESSAGE Telnet session connected on port 3330->52116 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:41:58.471
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:41:58.476
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 13:41:58.584
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:42:08.013
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:42:08.017
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 13:42:08.125
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:42:17.167
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:42:17.171
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:42:17.206
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:42:18.209
+!MESSAGE RedlinkServer telnet session connected on port 3025->37024 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:42:19.783
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:42:19.790
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:42:19.795
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:42:20.355
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=46403, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:42:21.363
+!MESSAGE Telnet session connected on port 3330->49572 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:51:33.863
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:51:33.871
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:51:33.910
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:51:34.912
+!MESSAGE RedlinkServer telnet session connected on port 3025->59168 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 13:51:36.478
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:51:36.484
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:51:36.489
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 13:51:37.046
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=39189, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 13:51:38.100
+!MESSAGE Telnet session connected on port 3330->53992 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:33.541
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:33.545
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2023-11-17 14:00:33.649
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 14:00:33.656
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:39.655
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:39.660
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2023-11-17 14:00:39.762
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 14:00:39.768
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:52.699
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:52.704
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:52.741
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:00:53.744
+!MESSAGE RedlinkServer telnet session connected on port 3025->53708 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:00:55.341
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:55.347
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:55.353
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:00:55.911
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=38441, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:00:56.965
+!MESSAGE Telnet session connected on port 3330->51252 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-11-17 14:10:13.319
+!MESSAGE 15: Target error from Read Memory: Ee(A5). Wire protocol for probe is not initialized
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-11-17 14:10:13.319
+!MESSAGE 15: Target error from Read Memory: Ee(A5). Wire protocol for probe is not initialized
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-11-17 14:10:13.319
+!MESSAGE 15: Target error from Read Memory
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-11-17 14:10:13.319
+!MESSAGE Debug port inaccessible after access at location 0x00003CD8
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-11-17 14:10:13.319
+!MESSAGE Debug port inaccessible after access at location 0x00003D28
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-11-17 14:10:13.319
+!MESSAGE Debugging context: labo3 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2023-11-17 14:10:16.196
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@694d8bf6): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2023-11-17 14:10:16.196
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:10:16.242
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:10:17.243
+!MESSAGE RedlinkServer telnet session connected on port 3025->45300 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-11-17 14:10:17.244
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:17:08.311
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:17:08.316
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:17:08.350
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:17:09.353
+!MESSAGE RedlinkServer telnet session connected on port 3025->50062 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:17:10.859
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:17:10.866
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:17:10.872
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:17:11.438
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=41473, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:17:12.442
+!MESSAGE Telnet session connected on port 3330->32770 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:19:11.407
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:19:11.411
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 14:19:11.519
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:19:25.672
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:19:25.678
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:19:25.714
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:19:26.716
+!MESSAGE RedlinkServer telnet session connected on port 3025->40504 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:19:28.233
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:19:28.239
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:19:28.245
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:19:28.803
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=38943, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:19:29.808
+!MESSAGE Telnet session connected on port 3330->48536 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:20:49.164
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:20:49.169
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:20:49.208
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:20:50.210
+!MESSAGE RedlinkServer telnet session connected on port 3025->49520 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:20:51.756
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:20:51.762
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:20:51.768
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:20:52.326
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=40691, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:20:53.381
+!MESSAGE Telnet session connected on port 3330->41164 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:22:29.282
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:22:29.287
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:22:29.320
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:22:30.323
+!MESSAGE RedlinkServer telnet session connected on port 3025->55200 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:22:31.845
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:22:31.851
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:22:31.856
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:22:32.415
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=36739, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:22:33.420
+!MESSAGE Telnet session connected on port 3330->60122 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:26:21.250
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:26:21.255
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2023-11-17 14:26:21.357
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IProject.members()" because "project" is null
+	at org.eclipse.cdt.debug.core.sourcelookup.CProjectSourceContainer.createFolderSourceContainers(CProjectSourceContainer.java:238)
+	at org.eclipse.cdt.debug.core.sourcelookup.CProjectSourceContainer.createSourceContainers(CProjectSourceContainer.java:218)
+	at org.eclipse.debug.core.sourcelookup.containers.CompositeSourceContainer.getSourceContainers(CompositeSourceContainer.java:125)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:114)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 14:26:21.364
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:26:45.473
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:26:45.478
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:26:45.515
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:26:46.517
+!MESSAGE RedlinkServer telnet session connected on port 3025->40150 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:26:48.013
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:26:48.019
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:26:48.025
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:26:48.594
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=33607, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:26:49.600
+!MESSAGE Telnet session connected on port 3330->44212 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:27:57.000
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:27:57.004
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 14:27:57.107
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:06.047
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:06.051
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:06.086
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:28:07.088
+!MESSAGE RedlinkServer telnet session connected on port 3025->41402 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:28:08.633
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:08.639
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:08.644
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:09.207
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=41531, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:28:10.214
+!MESSAGE Telnet session connected on port 3330->58562 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:44.219
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:44.225
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:44.262
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:28:45.264
+!MESSAGE RedlinkServer telnet session connected on port 3025->33884 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:28:46.831
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:46.838
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:46.844
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:28:47.406
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=42261, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:28:48.447
+!MESSAGE Telnet session connected on port 3330->33122 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:29:26.860
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:29:26.865
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:29:26.900
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:29:27.902
+!MESSAGE RedlinkServer telnet session connected on port 3025->55470 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:29:28.110
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:29:28.115
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 14:29:28.219
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:29:29.860
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:29:29.868
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:29:29.874
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:29:30.426
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=36891, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:29:31.465
+!MESSAGE Telnet session connected on port 3330->54198 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:34:02.080
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:34:02.085
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:34:02.120
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:34:03.122
+!MESSAGE RedlinkServer telnet session connected on port 3025->42242 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:34:04.658
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:34:04.664
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:34:04.670
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:34:05.227
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=42115, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:34:06.232
+!MESSAGE Telnet session connected on port 3330->44168 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:37:25.599
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:37:25.603
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:37:25.635
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:37:26.638
+!MESSAGE RedlinkServer telnet session connected on port 3025->48168 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:37:26.845
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:37:26.850
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2023-11-17 14:37:26.957
+!MESSAGE There is already a running debug session for the launch configuration 'labo3 LinkServer Debug'.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:37:28.670
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:37:28.676
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:37:28.683
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:37:29.234
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=45805, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:37:30.238
+!MESSAGE Telnet session connected on port 3330->33394 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:58:26.497
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:58:26.502
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:58:26.535
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:58:27.537
+!MESSAGE RedlinkServer telnet session connected on port 3025->58992 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:58:29.311
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:58:29.317
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:58:29.322
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:58:29.878
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=46747, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:58:30.921
+!MESSAGE Telnet session connected on port 3330->48194 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:59:03.230
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:59:03.235
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:59:03.270
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:59:04.272
+!MESSAGE RedlinkServer telnet session connected on port 3025->38028 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 14:59:05.752
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:59:05.758
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:59:05.764
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 14:59:06.322
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=43131, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 14:59:07.327
+!MESSAGE Telnet session connected on port 3330->41620 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:05:20.442
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:05:20.447
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:05:20.482
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:05:21.484
+!MESSAGE RedlinkServer telnet session connected on port 3025->49430 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:05:23.098
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:05:23.103
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:05:23.108
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:05:23.666
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=39313, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 15:05:24.671
+!MESSAGE Telnet session connected on port 3330->50682 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:07:03.682
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:07:03.688
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:07:03.726
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:07:04.729
+!MESSAGE RedlinkServer telnet session connected on port 3025->41460 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:07:06.415
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:07:06.421
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:07:06.427
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:07:06.982
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=43725, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 15:07:08.037
+!MESSAGE Telnet session connected on port 3330->48844 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:09:06.296
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:09:06.300
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:09:06.334
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:09:07.337
+!MESSAGE RedlinkServer telnet session connected on port 3025->49644 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:09:08.919
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:09:08.925
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:09:08.930
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:09:09.487
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=42993, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 15:09:10.492
+!MESSAGE Telnet session connected on port 3330->42650 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:10:50.152
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:10:50.157
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:10:50.192
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:10:51.194
+!MESSAGE RedlinkServer telnet session connected on port 3025->55086 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:10:52.822
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:10:52.828
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:10:52.833
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:10:53.391
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=36059, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 15:10:54.446
+!MESSAGE Telnet session connected on port 3330->59116 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:11:34.403
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:11:34.408
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:11:34.447
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:11:35.449
+!MESSAGE RedlinkServer telnet session connected on port 3025->55890 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:11:36.980
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:11:36.986
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:11:36.991
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:11:37.546
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=34285, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 15:11:38.551
+!MESSAGE Telnet session connected on port 3330->58314 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:12:58.132
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:12:58.135
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:12:58.154
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:12:59.157
+!MESSAGE RedlinkServer telnet session connected on port 3025->35720 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:12:59.916
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:12:59.919
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:12:59.921
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:13:00.486
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=44497, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 15:13:01.489
+!MESSAGE Telnet session connected on port 3330->32772 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:14:59.421
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:14:59.423
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:14:59.440
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:15:00.442
+!MESSAGE RedlinkServer telnet session connected on port 3025->54814 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:15:01.151
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:15:01.154
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:15:01.156
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:15:01.710
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=41133, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 15:15:02.717
+!MESSAGE Telnet session connected on port 3330->44992 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:19:03.181
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:19:03.184
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:19:03.206
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:19:04.209
+!MESSAGE RedlinkServer telnet session connected on port 3025->49394 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-17 15:19:04.907
+!MESSAGE cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.w3.org/2001/XInclude":include}'. One of '{include, parameters, script}' is expected.
+
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:19:04.910
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:19:04.912
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-17 15:19:05.469
+!MESSAGE Starting GDB server [ /usr/local/mcuxpressoide-11.8.0_1165/ide/plugins/com.nxp.mcuxpresso.tools.bin.linux_11.8.0.202307121428/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=46701, -g, -mi, -2, -pLPC1769, -vendor=NXP, --reset=VECTRESET, -ProbeHandle=1, -CoreIndex=0, --flash-hashing, --flash-driver, LPC175x_6x_512.cfx, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 15:19:06.477
+!MESSAGE Telnet session connected on port 3330->42314 @ 127.0.0.1

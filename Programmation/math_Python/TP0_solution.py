@@ -82,10 +82,7 @@ def prog_lin_2( F , C ):
     print(txt)
     return Good_pts[max_index], max_val
     
-def ExempleCours():
-    F = [8,9,0]
-    C = [[2,5,12] , [10,10,45] , [50,5,150] , [5,50,100] , [-1,0,0] , [0,-1,0] ]
-    prog_lin_2( F , C )
+
 
 def DefiTP():
     F = [313,205,-10]
@@ -93,9 +90,21 @@ def DefiTP():
     C = [[1,2,14],[10,10,100],[20,10,190],[4,0,37],[0,1,6],[-4,1,4],[-5,-5,-10],[-25,-15,-40],[-1,0,0],[0,-1,0]]
     prog_lin_2(G, C)
 
+
+def Eval():
+    F = [-10,-2,-12]
+    C = [[-1,0 ,0 ],[ 0,-1 ,-1 ],[-4 ,-2 ,-8 ],[-3,2,2],[1,-2,14],[1,-1,7]]
+    prog_lin_2(F, C)
+    #print("test du point 3.4375,6.625")
+    #pt = [3.4375,6.625]
+    #test_inside(pt,C)
+
+    #print("Test intersection de deux contraintres")
+    #intersection([-4 ,-2 ,-8 ],[-3,2,2])
+
 ### L'exemple du cours avec les glaces (polycopié page 23).
 
-DefiTP()
+Eval()
 
 
 
