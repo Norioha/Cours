@@ -1,0 +1,1 @@
+void tri_insertion(int tab[], int n);

@@ -1,0 +1,1 @@
+void cocktailSort(int array[], int size);
