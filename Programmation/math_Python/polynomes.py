@@ -1,6 +1,8 @@
 # Petites fonctions pour manipuler des polynômes (avec coefficients en float).
 # Attention: le Polynôme 3x^2 + 2x + 1 est codé comme [1,2,3]
 
+
+
 def remove_zeros(p):
     m = len(p)
     n = 1
@@ -40,7 +42,7 @@ def addition(a, b):
     return remove_zeros(s0)
 
 
-def multiplication(a, b):
+def multiplication(a, b,p):
     prod = [0]*(len(a) + len(b) - 1)
     for k in range(len(a)):
         for l in range(len(b)):
@@ -60,17 +62,6 @@ def pol_eval(pol, x):
         value = value*x + pol[k-1]
     return value
 
-
-# def LaGrange(l1):
-#     lx = 0
-#     for i in range(len(l1)):
-#         l = 1
-#         for j in range(len(l1[i])):
-#             if(j != i):
-#                 multiplication(l, addition(-(l1[j][0] / l1[i][0] - l1[j][0]),1 / (l1[i][0] - l1[j][0])))
-#         l = multiplication(l, l1[i][1])
-#         lx = addition(lx, l)
-#     return lx
 def LaGrange(l1):
     lx = [0]
     for i in range(len(l1)):
@@ -82,14 +73,17 @@ def LaGrange(l1):
         lx = addition(lx, l)
     return lx
 
+
+
+
+
 l1 = [[0, 1], [2, 5], [4, 12], [8, 15],[11,0],[12,1]]
 p = 13
 l2 = [[0,10],[1,0],[-2,3],[-5,0]]
 
-l3 =[(0.0001, -1.000000049997), (10, -7501), (-400000000.0, -2.5600000192e+34), (-800000000.0, -4.09600001536e+35), (1600000000.0, -6.553599987712e+36)]
-
 #print(pol_eval(LaGrange(l1),13))
-print(pol_string(LaGrange(l3)))
-print("\n")
+#print(pol_string(LaGrange(l3)))
+#print("\n")
 
 #print(pol_eval(LaGrange(l1),p))
+

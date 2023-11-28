@@ -91,7 +91,7 @@ void labo4(){
 }
 int main(void) {
 	// Choisir le numero de l'exercice en changeant la valeur de 'exo'.
-	uint8_t exo = 5;
+	uint8_t exo =1;
 
 	while(1) {
 		// Choix de l'exercice. Rajouter des exercices si besoin, en gardant la même

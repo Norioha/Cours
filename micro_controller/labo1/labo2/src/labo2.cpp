@@ -7,10 +7,6 @@
 
 #include "mbed.h"
 
-void exercice1(void) {
-
-}
-
 void exercice2(void) {
 
 }
@@ -20,6 +16,10 @@ void exercice3(void) {
 }
 
 void exercice4(void) {
+
+}
+
+void exercice1(void) {
 
 }
 

@@ -3565,3 +3565,33 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.resources.IProje
 
 !ENTRY com.nxp.mcuxpresso.core.debug 1 0 2023-11-17 15:19:06.477
 !MESSAGE Telnet session connected on port 3330->42314 @ 127.0.0.1
+!SESSION 2023-11-24 10:05:03.495 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2023-11-24 10:05:14.123
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY com.crt.log 1 0 2023-11-24 10:13:52.150
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-24 10:13:52.155
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-24 10:13:52.205
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2023-11-24 10:13:52.207
+!MESSAGE RedlinkServer telnet session connected on port 3025->47966 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2023-11-24 10:13:52.351
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.crt.log 1 0 2023-11-24 10:13:52.356
+!MESSAGE dfu-util: Cannot open DFU device 13d3:5463
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2023-11-24 10:13:55.161
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []

@@ -1,0 +1,152 @@
+b. Définissez la capacité de canal et expliquez son importance dans les communications.
+
+La capacité d’un canal, en génie électrique, en informatique et en théorie de l’information, est la limite supérieure étroite du débit auquel l’information peut être transmise de manière fiable sur un canal de communication1. Elle est définie comme le maximum du débit2.
+
+L’importance de la capacité du canal réside dans son rôle central dans le développement des systèmes de communication modernes, filaires et sans fil. Avec l’avènement de nouveaux mécanismes de codage de correction d’erreurs, il a été possible d’atteindre des performances très proches des limites promises par la capacité du canal2. En d’autres termes, une bonne utilisation de la capacité du canal permet d’optimiser la quantité d’information transmise, ce qui est crucial pour la fiabilité et l’efficacité des communications.
+
+C. Soit un canal de communication avec une largeur de bande de 4 kHz et un rapport signal/bruit (SNR) de
+20 dB. Calculez la capacité de ce canal en bits par seconde en utilisant la formule de Shannon
+
+La formule de Shannon pour la capacité d’un canal de communication est donnée par :
+
+C=B⋅log⁡2(1+SNR)
+
+où :
+
+    C = est la capacité du canal (en bits par seconde),
+    B = est la largeur de bande du canal (en hertz),
+    SNR = est le rapport signal sur bruit (sans unité).
+
+Dans ce cas, la largeur de bande BB est de 4 kHz ou 4000 Hz, et le rapport signal sur bruit SNRSNR est de 20 dB. Cependant, la formule de Shannon nécessite que le SNRSNR soit sans unité, pas en dB. On peut convertir le SNRSNR de dB à une valeur sans unité en utilisant la formule suivante :
+
+SNRsans unite = 10^(SNRdB/10)
+​​
+
+En substituant ces valeurs dans la formule de Shannon, nous pouvons calculer la capacité du canal. Convert SNR from dB to linear scale
+
+SNR_db = 20 SNR_linear = 10 ** (SNR_db / 10)
+
+
+d.
+
+La capacité d’un canal de communication est influencée par plusieurs facteurs clés :
+
+    Bruit : Le bruit dans le canal de communication peut réduire la clarté du message. Il peut s’agir de bruit physique (comme le bruit de fond dans un appel téléphonique) ou de bruit sémantique (comme l’utilisation de jargon ou de termes techniques non compris par le récepteur).
+
+    Bande passante : La bande passante du canal détermine la quantité d’informations qui peut être transmise à un moment donné. Un canal avec une bande passante plus large peut transmettre plus d’informations.
+
+    Interférence : L’interférence d’autres canaux peut affecter la qualité de la communication. Par exemple, dans les communications sans fil, les signaux d’autres appareils peuvent interférer avec le signal de communication.
+
+    Latence : La latence est le temps nécessaire pour qu’un message soit transmis d’un point à un autre. Une latence plus élevée peut entraîner des retards dans la communication.
+
+    Fiabilité : La fiabilité du canal affecte la précision de la communication. Un canal peu fiable peut entraîner la perte de messages ou leur transmission incorrecte.
+
+    Sécurité : La sécurité du canal est également importante. Un canal non sécurisé peut être sujet à l’écoute clandestine ou à d’autres formes d’attaque, ce qui peut compromettre la confidentialité et l’intégrité de la communication.
+    
+e.
+     
+
+Si la puissance du signal est doublée, cela revient à doubler le rapport signal sur bruit (SNR). Par conséquent, la capacité du canal augmentera. Cependant, l’augmentation ne sera pas linéaire, mais logarithmique, car la loi de Shannon-Hartley utilise le logarithme du SNR.
+
+f. Si la bande passante du signal est doublée, comment cela affecte-t-il la capacité du canal selon la loi de Shannon-Hartley?
+la capacité du canal doublera.
+
+En résumé, un canal à large bande a une plus grande capacité et peut transmettre des données à des vitesses plus élevées par rapport à un canal à bande étroite. Cependant, il est important de noter que l’augmentation de la largeur de bande peut également augmenter le bruit et donc affecter la qualité du signal. Par conséquent, des techniques appropriées de gestion du bruit et de modulation du signal sont nécessaires pour garantir une transmission de données efficace et de haute qualité.
+
+h.Si deux canaux ont la même largeur de bande mais des rapports signal/bruit différents, comment cela se
+traduit-il en termes de capacité de canal?
+
+Par conséquent, si deux canaux ont la même largeur de bande mais des rapports signal/bruit différents, le canal avec le rapport signal/bruit le plus élevé aura une plus grande capacité. Cela signifie qu’il peut transmettre plus d’informations par unité de temps par rapport à l’autre canal.
+
+Il est important de noter que le rapport signal/bruit est un indicateur de la qualité du signal. Un rapport signal/bruit plus élevé signifie que le signal est de meilleure qualité (moins de bruit par rapport au signal), ce qui permet une transmission de données plus efficace.
+
+
+Question 8.
+
+L’énergie d’un signal est définie comme l’intégrale du carré de l’amplitude du signal sur tout l’intervalle de temps. Pour un signal qui est égal à 1 entre 0 et 1, et égal à 0 autrement, l’énergie du signal peut être calculée comme suit :
+
+On définit le signal x(t) comme suit :
+
+x(t)={1 si 0 ≤ t < 1
+      0 sinon
+      
+b.Calculez la puissance moyenne du signal périodique d'une période égale à T=1 s. Le signal est -1 entre 0 s
+et 0.5 s, et 1 entre 0.5 s et 1 s et il se répète périodiquement
+
+La puissance moyenne d’un signal périodique est définie comme l’énergie du signal sur une période, divisée par la durée de cette période. Pour un signal qui est -1 entre 0 s et 0.5 s, et 1 entre 0.5 s et 1 s, et qui se répète périodiquement avec une période T=1 s, la puissance moyenne du signal peut être calculée comme suit :
+
+On définit le signal x(t) comme suit :
+
+x(t)={−1 si 0 ≤ t <0.5
+       1 si 0.5 ≤ t < 1
+       
+Question 9 : Transformation de Fourier
+a. Quelle est la relation entre la fréquence du signal sinusoïdal et sa période ?
+
+La fréquence (f) d’un signal sinusoïdal est l’inverse de sa période (T). Autrement dit, si la période est le temps qu’il faut pour un cycle complet du signal, la fréquence est le nombre de ces cycles qui se produisent en une seconde. La relation entre les deux est exprimée par la formule suivante :
+
+f=1/T
+
+b. Définissez la formule de la transformée de Fourier d'un signal sinusoïdal x(t)=Acos(2πf 0t), où A est
+l'amplitude et f0 est la fréquence 
+La transformée de Fourier d’un signal sinusoïdal
+
+x(t)=Acos⁡(2πf0t)
+est donnée par une paire de pics de Dirac situés à ±f0​
+sur l’axe des fréquences. Chaque pic a une amplitude de
+
+A/2
+.
+
+La formule de la transformée de Fourier pour ce signal est donc :
+
+X(f)=A2[δ(f−f0)+δ(f+f0)]
+
+c.Définissez la fonction delta de Dirac (δ(t))
+
+
+La fonction delta de Dirac, souvent notée δ(t), est une fonction mathématique particulière qui est définie comme suit :
+
+    Elle est égale à zéro partout sauf en zéro.
+    Son intégrale sur l’ensemble des nombres réels est égale à un.
+
+Formellement, on peut l’écrire comme suit :
+
+δ(t)={+∞,si t=0
+      0,si t≠0
+      
+d. Si x(t) est une onde cosinusoidale d'amplitude 3 et de fréquence 50 Hz, calculez sa transformée de Fourier
+
+alors sa transformée de Fourier est donnée par :
+
+X(f)=3/2[δ(f−50)+δ(f+50)]
+
+Cela signifie que la transformée de Fourier du signal est une paire de pics de Dirac situés à ±50 Hz sur l’axe des fréquences, chacun avec une amplitude de 1.5 (qui est la moitié de l’amplitude du signal original).
+
+
+e. Quelle est la transformée de Fourier de la fonction delta de Dirac, notée F[δ(t)] ?
+
+F[δ(t)]=1
+f. Si x(t)=A est une fonction constante, exprimez sa transformée de Fourier F[x(t)].
+
+La transformée de Fourier d’une fonction constante, x(t) = A, est une fonction delta de Dirac centrée en zéro et multipliée par la constante A. En notation mathématique, cela peut être exprimé comme suit :
+
+F[x(t)]=A⋅δ(f)
+
+g. Énoncez la propriété de linéarité de la transformée de Fourier.
+
+La propriété de linéarité de la transformée de Fourier stipule que la transformée de Fourier d’une combinaison linéaire de fonctions est égale à la combinaison linéaire des transformées de Fourier de ces fonctions1. En termes mathématiques, si nous avons deux signaux x et y dont les transformations de Fourier sont respectivement X et Y, et a et b sont deux réels, alors la transformation de Fourier d’un mélange linéaire des fonctions est égal au mélange des transformations de Fourier1:
+
+Si F{x(t)}=X(f) et F{y(t)}=Y(f), alors F{a⋅x(t)+b⋅y(t)}=a⋅X(f)+b⋅Y(f)
+
+Cela signifie que la transformée de Fourier est une opération linéaire.
+
+shannon-fano vs huffman
+
+Longueur moyenne avec Huffman = (1 * 3/10) + (2 * 2/10) + (3 * 2/10) + (4 * 1/10) + (4 * 1/10) + (4 * 1/10)
+
+Longueur moyenne avec Shannon-Fano = (1 * 3/10) + (2 * 2/10) + (2 * 2/10) + (3 * 1/10) + (3 * 1/10) + (3 * 1/10)
+
+Entropie = - Σ (probabilité du symbole * log2(probabilité du symbole))
+
+

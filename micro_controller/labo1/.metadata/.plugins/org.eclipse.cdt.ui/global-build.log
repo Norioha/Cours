@@ -2659,3 +2659,8 @@ arm-none-eabi-size "labo3.axf"; # arm-none-eabi-objcopy -v -O binary "labo3.axf"
    text	   data	    bss	    dec	    hex	filename
   48912	   1996	   1028	  51936	   cae0	labo3.axf
  
+10:13:46 **** Clean-only build of configuration Debug for project labo1 ****
+make -r -j20 clean 
+rm -rf ./src/labo1.d ./src/labo1.o
+rm -rf labo1.axf
+ 
