@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
     int tab[size];
     generateRandomNumbers(tab,size,9999);
     switch (n_sort_chosen)
-    {
+    {       // usage avec 1000 nombres a trié
     case 1: //0.00115 seconds bubble
         for(size_t i = 0; i < 500; i++)
         {
