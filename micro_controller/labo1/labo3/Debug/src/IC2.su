@@ -1,7 +1,8 @@
 /home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/drivers/I2C.h:173:13:mbed::I2C::~I2C()	16	static
 /home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/drivers/I2C.h:173:13:virtual mbed::I2C::~I2C()	16	static
 ../src/IC2.cpp:27:6:void exercice1()	16	static
-../src/IC2.cpp:43:5:int main()	16	static
+../src/IC2.cpp:54:6:void exercice2()	8	static
+../src/IC2.cpp:65:5:int main()	16	static
 /home/pc/Desktop/Cours/micro_controller/labo1/mbed-os/platform/NonCopyable.h:178:5:mbed::NonCopyable<T>::~NonCopyable() [with T = mbed::I2C]	8	static
-../src/IC2.cpp:69:1:void __static_initialization_and_destruction_0(int, int)	16	static
-../src/IC2.cpp:69:1:cpp)	8	static
+../src/IC2.cpp:76:1:void __static_initialization_and_destruction_0(int, int)	72	static
+../src/IC2.cpp:76:1:cpp)	8	static
