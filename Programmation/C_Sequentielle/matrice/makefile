@@ -1,12 +1,31 @@
-all : main
+# Définir le compilateur
+CC = gcc
 
-matrix.o : matrix.c matrix.h
-	gcc -Wall -Wextra -pedantic -fsanitize=address  -Wextra -pedantic -fsanitize=address  -o matrix.o  matrix.c 
+# Définir les options de compilation
+CFLAGS = -Wall -Wextra -pedantic
 
-main.o : main.c
-	gcc -Wall -Wextra -pedantic -fsanitize=address  -Wextra -pedantic -fsanitize=address  -o main.o  main.c 
+# Définir les fichiers objets
+OBJS = matrix.o main.o
 
+# Règle par défaut pour créer l'exécutable
+all: program
 
+# Règle pour créer l'exécutable
+program: $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $^
 
-main: matrix.o main.o
-	gcc -Wall -Wextra -pedantic -fsanitize=address  -Wextra -pedantic -fsanitize=address  matrix.o main.o -o executable
+# Règle pour compiler matrix.c en matrix.o
+matrix.o: matrix.c matrix.h
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Règle pour compiler main.c en main.o
+main.o: main.c matrix.h
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Règle pour nettoyer les fichiers objets et l'exécutable
+clean:
+ifeq ($(OS),Windows_NT)
+	del /f /q *.o program.exe
+else
+	rm -f *.o program
+endif
