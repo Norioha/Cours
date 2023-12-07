@@ -2,9 +2,3 @@
 *.json
 Programmation/C_Sequentielle/tri/makefile
 *.o
-
-# Ignore C executables
-*
-!*.c
-!*.h
-!/.gitignore
