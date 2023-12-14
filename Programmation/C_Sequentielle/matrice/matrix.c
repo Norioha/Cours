@@ -62,7 +62,7 @@ void print_matrix(matrix_t *mat, int32_t m,int32_t n){
     }
     
 }
-
+//
 error_code_t matrix_destroy(matrix_t *mat){
     mat->rows = -1;
     mat->cols = -1;
