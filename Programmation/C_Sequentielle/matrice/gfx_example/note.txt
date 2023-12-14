@@ -1,0 +1,3 @@
+négatif = 255 - valeur
+Une symétrie verticale ou horizontale consiste à inverser l’ordre des pixels verticalement ou horizontalement respectivement. La symétrie centrale consiste à échanger les lignes et les colonnes d’une image.
+photomaton = répartition des pixels par 4 
