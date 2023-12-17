@@ -8,7 +8,7 @@ typedef enum _pgm_result {
 
 typedef struct _pgm{
     int32_t max;
-    matrix pixels;
+    matrix_t pixels;
 } pgm ; 
 
 //lisant le fichier filename et écrivant son contenu dans la variable p. 
@@ -20,7 +20,7 @@ pgm_result pgm_read_from_file(pgm *p, char *filename);
 pgm_result pgm_write_to_file(pgm *p, char *filename);
 
 /**
- * NOTE 
+ * NOTE . ou ->
  *  
 On utilise . quand on accède à la structure directement. 
 Par exemple, si on a une structure s de type struct, on peut accéder à un membre m avec s.m.

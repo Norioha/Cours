@@ -13,17 +13,18 @@
 error_code_t matrix_alloc(matrix_t *mat, int32_t m, int32_t n){
     mat->rows = m;
     mat->cols = n;
-
-
-    // rappelle malloc retourne un pointeur vers le début de l'espace allouée 
-    //sizeof(int32_t*) donne la taille en octets d’un pointeur vers int32_t. C’est la taille de chaque élément du tableau.
-    //(int32_t**) est une conversion de type (ou un cast) qui dit au compilateur de traiter 
-    //le pointeur renvoyé par malloc comme un pointeur vers un pointeur de int32_t.
+    printf(" in matrix bug ");
     mat->data = (int32_t**)malloc(m * sizeof(int32_t*));
+    if (mat->data == NULL) {
+        return err;
+    }
 
     for (int32_t i = 0; i < m; i++)
     {
         mat->data[i] = (int32_t*) malloc(n * sizeof(int32_t));
+        if (mat->data[i] == NULL) {
+            return err;
+        }
     }
     
     return ok;
@@ -31,18 +32,22 @@ error_code_t matrix_alloc(matrix_t *mat, int32_t m, int32_t n){
 
 /// @brief initilise dans toutes les cases de la matrice a val 
 /// @param mat 
-/// @param m 
-/// @param n 
+/// @param m ligne 
+/// @param n colonne
 /// @param val 
 /// @return ok or err
 error_code_t matrix_init(matrix_t *mat, int32_t m, int32_t n, int32_t val){
+    
+    if(matrix_alloc(mat,m,n) == err){
+        return err;
+    }
+    
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
         {
             mat->data[i][j] = val;
         }
-        
     }
     return ok;
 }
@@ -79,31 +84,21 @@ error_code_t matrix_destroy(matrix_t *mat){
 
 
 error_code_t matrix_init_from_array(matrix_t *mat, int32_t m, int32_t n, int32_t data[], int32_t s){
-    // Vérifie si les entrées sont valides
-    if(mat == NULL || data == NULL || m <= 0 || n <= 0 || s < m * n){
+    if(mat == NULL || data || NULL || m<= 0 ||n<=0 || s< m*n){
         return err;
     }
-    // Initialise les champs rows et cols de la structure mat
-    mat->rows = m;
-    mat->cols = n;
-    // Alloue de la mémoire pour le champ data de la structure mat
-    mat->data = malloc(m * sizeof(int32_t *));
-    if(mat->data == NULL){
+
+    if(matrix_alloc(mat,m,n) != ok){
         return err;
     }
-    // Initialise les éléments de la matrice
-    for(int i = 0; i < m; i++){
-        mat->data[i] = malloc(n * sizeof(int32_t));
-        if(mat->data[i] == NULL){
-            for(int j = 0; j < i; j++){
-                free(mat->data[j]);
-            }
-            free(mat->data);
-            return err;
-        }
-        for(int j = 0; j < n; j++){
+
+    for(int i= 0;i < m;i++){
+        for (int j = 0; j < n; j++)
+        {
+            //2d matrice <- (depuis) 1d array
             mat->data[i][j] = data[i * n + j];
         }
+        
     }
     return ok;
 }

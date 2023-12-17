@@ -2,24 +2,28 @@
 CC = gcc
 
 # Définir les options de compilation
-CFLAGS = -Wall -Wextra -pedantic
+CFLAGS = "-Wall" "-Wextra" "-pedantic" -g -fsanitize=address -fsanitize=leak
 
 # Définir les fichiers objets
-OBJS = matrix.o main.o
+OBJS = matrix.o image.o mainMatrix.o
 
 # Règle par défaut pour créer l'exécutable
-all: program
+all: program 
 
 # Règle pour créer l'exécutable
 program: $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $^
 
 # Règle pour compiler matrix.c en matrix.o
-matrix.o: matrix.c matrix.h
+matrix.o: matrix.c 
 	$(CC) $(CFLAGS) -c $< -o $@
 
-# Règle pour compiler main.c en main.o
-main.o: main.c matrix.h
+# Règle pour compiler image.c en image.o
+image.o: image.c 
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Règle pour compiler mainMatrix.c en mainMatrix.o
+mainMatrix.o: mainMatrix.c 
 	$(CC) $(CFLAGS) -c $< -o $@
 
 # Règle pour nettoyer les fichiers objets et l'exécutable
@@ -29,3 +33,4 @@ ifeq ($(OS),Windows_NT)
 else
 	rm -f *.o program
 endif
+
